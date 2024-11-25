@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:simpleType name="tipo_codigo">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[a-zA-Z]{2}[0-9]{4}"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="tipo_unidad">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="KB"/>
+			<xs:enumeration value="MB"/>
+			<xs:enumeration value="GB"/>
+			<xs:enumeration value="TB"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="tipo_procesador">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="fabricante" type="xs:string"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:complexType name="tipo_memoria">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="unidad" type="tipo_unidad"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:element name="inventario">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="objeto" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:choice>
+							<xs:element name="mesa">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="tipo" type="xs:string" minOccurs="0"/>
+										<xs:element name="localizacion" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="ordenador">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="procesador" type="tipo_procesador"></xs:element>
+										<xs:element name="memoria" type="tipo_memoria"></xs:element>
+										<xs:element name="discoduro" type="xs:positiveInteger"></xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:choice>
+						<xs:attribute name="codigo" type="tipo_codigo"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+</xs:schema>

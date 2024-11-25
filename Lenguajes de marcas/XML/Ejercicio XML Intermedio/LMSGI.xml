@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DAW>
+    <modulos>
+        <LMSGI obligatorio="Sí">
+            <horas_semanales>4</horas_semanales>
+            <fecha_inicio>
+                <dia>15</dia>
+                <mes>septiembre</mes>
+                <anno>2023</anno>
+            </fecha_inicio>
+            <fecha_fin>
+                <dia>30</dia>
+                <mes>junio</mes>
+                <anno>2024</anno>
+            </fecha_fin>
+            <alumnos>
+                <alumno>
+                    <nombre>Ana</nombre>
+                    <apellidos>Fernández Gutiérrez</apellidos>
+                    <dni>16965696L</dni>
+                    <telefono>789654321</telefono>
+                    <email>ana.fdezgtrrez@hotmail.com</email>
+                    <direccion cp="39302">C/ El Percebe, 13 de Santander</direccion>
+                    <faltas_asistencia>0</faltas_asistencia>
+                    <notas></notas>
+                </alumno>
+                <alumno>
+                    <nombre>Pepito</nombre>
+                    <apellidos>Grillo</apellidos>
+                    <dni>98765432H</dni>
+                    <telefono>656566555</telefono>
+                    <email>yhyh@yahoo.com</email>
+                    <direccion cp="39401">Avd. El Pez, 5 de Suances</direccion>
+                    <faltas_asistencia>0</faltas_asistencia>
+                    <notas>Apto</notas>
+                </alumno>
+            </alumnos>
+        </LMSGI>
+    </modulos>
+</DAW>

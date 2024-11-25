@@ -1,0 +1,13 @@
+<!ELEMENT biblioteca (libros+)>
+<!ELEMENT libros (cod_libro, titulo, editorial, ediciom, isb, num_pag, autor)>
+<!ELEMENT cod_libro (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT edicion (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT num_pag (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+
+<!ATTLIST cod_libro cod ID #REQUIRED>
+<!ATTLIST editorial editor CDATA #IMPLIED>
+<!ATTLIST edicion anio CDATA #IMPLIED>

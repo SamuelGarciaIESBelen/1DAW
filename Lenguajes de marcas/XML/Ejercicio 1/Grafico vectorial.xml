@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<coordenadas>
+    <type>graphic</type>
+    <height>500px</height>
+    <width>500px</width>
+    <!-- x, y -->
+    <start>0px, 0px</start>
+</grafico>
+
+<figura1>
+    <type>rectangle</type>
+    <height>120px</height>
+    <width>150px</width>
+    <start>150px, 400px</start>
+</figura1>
+
+<figura2>
+    <type>circle</type>
+    <radius>100px</radius>
+    <start>400px, 400px</start>
+</figura2>
+
+<figura3>
+    <type>circle</type>
+    <!-- (120px + 150px), (400px + 150px) -->
+    <start>270px, 550px</start>
+    <end>400px, 400px</end>
+</figura3>

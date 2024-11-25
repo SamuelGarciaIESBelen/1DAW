@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bancos xmlns:d="http://www.asiento.com"
+        xmlns:s="https://www.dinerito.com">
+
+    <d:banco>
+        <d:nombre>Banco Urbano</d:nombre>
+        <d:identificador>ES32</d:identificador>
+        <d:cantidad>10000</d:cantidad>
+    </d:banco>
+    <s:banco>
+        <s:modelo>NLK82</s:modelo>
+        <s:capacidad>3</s:capacidad>
+        <s:medidas>
+            <s:ancho>123</s:ancho>
+            <s:alto>90</s:alto>
+        </s:medidas>
+    </s:banco>
+    <s:banco>
+        <s:modelo>NLK81</s:modelo>
+        <s:capacidad>2</s:capacidad>
+        <s:medidas>
+            <s:ancho>100</s:ancho>
+            <s:alto>90</s:alto>
+        </s:medidas>
+    </s:banco>
+    <d:banco>
+        <d:nombre>Banco Predem</d:nombre>
+        <d:identificador>ES33</d:identificador>
+        <d:cantidad>10020</d:cantidad>
+    </d:banco>
+    <d:banco>
+        <d:nombre>Banco ESP</d:nombre>
+        <d:identificador>ES34</d:identificador>
+        <d:cantidad>230000</d:cantidad>
+    </d:banco>
+    <d:banco>
+        <d:nombre>Banco Bank</d:nombre>
+        <d:identificador>ES56</d:identificador>
+        <d:cantidad>10555</d:cantidad>
+    </d:banco>
+    <s:banco>
+        <s:modelo>NLK78</s:modelo>
+        <s:capacidad>1</s:capacidad>
+        <s:medidas>
+            <s:ancho>60</s:ancho>
+            <s:alto>90</s:alto>
+        </s:medidas>
+    </s:banco>
+    <d:banco>
+        <d:nombre>Banco Trechted</d:nombre>
+        <d:identificador>ES211</d:identificador>
+        <d:cantidad>10000000</d:cantidad>
+    </d:banco>
+    <d:banco>
+        <d:nombre>Banco Bench</d:nombre>
+        <d:identificador>ES46</d:identificador>
+        <d:cantidad>110000</d:cantidad>
+    </d:banco>
+    <s:banco>
+        <s:modelo>NLK88</s:modelo>
+        <s:capacidad>4</s:capacidad>
+        <s:medidas>
+            <s:ancho>156</s:ancho>
+            <s:alto>95</s:alto>
+        </s:medidas>
+    </s:banco>
+</bancos>

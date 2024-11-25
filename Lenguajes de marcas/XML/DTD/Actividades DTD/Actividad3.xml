@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<comunidad>
+    <vecinos>
+        <cod_vecino carg="vocal">12345</cod_vecino>
+        <nombre nom="Samuel"></nombre>
+        <apellidos apel="García Zorrilla"></apellidos>
+        <portal port="3"></portal>
+        <pisoyletra piso="6">A</pisoyletra>
+        <cod_cuenta_ord ccc="12345"></cod_cuenta_ord>
+    </vecinos>
+    <vecinos>
+        <cod_vecino carg="secretario">12343</cod_vecino>
+        <nombre nom="Juan"></nombre>
+        <apellidos apel="García Pérez"></apellidos>
+        <portal port="4"></portal>
+        <pisoyletra piso="2">C</pisoyletra>
+        <cod_cuenta_ord ccc="12343"></cod_cuenta_ord>
+    </vecinos>
+    <vecinos>
+        <cod_vecino carg="vicepresidente">12344</cod_vecino>
+        <nombre nom="Javi"></nombre>
+        <apellidos apel="López Sánchez"></apellidos>
+        <portal port="3"></portal>
+        <pisoyletra piso="5">A</pisoyletra>
+        <cod_cuenta_ord ccc="12344"></cod_cuenta_ord>
+    </vecinos>
+    <vecinos>
+        <cod_vecino carg="presidente">12346</cod_vecino>
+        <nombre nom="Manuel"></nombre>
+        <apellidos apel="Castillo Alarcón"></apellidos>
+        <portal port="5"></portal>
+        <pisoyletra piso="3">B</pisoyletra>
+        <cod_cuenta_ord ccc="12346"></cod_cuenta_ord>
+    </vecinos>
+</comunidad>

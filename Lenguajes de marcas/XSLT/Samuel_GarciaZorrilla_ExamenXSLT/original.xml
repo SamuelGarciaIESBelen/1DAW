@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Ejercicio2.xsl" type="text/xsl"?>
+<!--Estructura original de la información-->
+<animales>
+    <libertad>
+        <nombre familia="felino">Lince Ibérico</nombre>
+        <inversion moneda="libras">15000000</inversion>
+        <fechaingreso>15-abril-2024</fechaingreso>
+    </libertad>
+    <cautividad>
+        <zooasociado>Benalmadena</zooasociado>
+        <datos>
+            <cantidad>20000</cantidad>
+            <moneda>Euros</moneda>
+        </datos>
+    </cautividad>
+    <cautividad>
+        <zooasociado>Valencia</zooasociado>
+        <datos>
+            <cantidad>40000</cantidad>
+            <moneda>Yenes</moneda>
+        </datos>
+    </cautividad>
+    <libertad>
+        <nombre familia="cetaceo">Orca</nombre>
+        <inversion moneda="euros">25000000</inversion>
+        <fechaingreso>12-enero-2024</fechaingreso>
+    </libertad>
+    <cautividad>
+        <zooasociado>Oviedo</zooasociado>
+        <datos>
+            <cantidad>110000</cantidad>
+            <moneda>euros</moneda>
+        </datos>
+    </cautividad>
+    <cautividad>
+        <zooasociado>Madrid</zooasociado>
+        <datos>
+            <cantidad>550000</cantidad>
+            <moneda>euros</moneda>
+        </datos>
+    </cautividad>
+    <libertad>
+        <nombre familia="simio">Chimpance</nombre>
+        <inversion moneda="libras">15000000</inversion>
+        <fechaingreso>12-febrero-2024</fechaingreso>
+    </libertad>
+</animales>

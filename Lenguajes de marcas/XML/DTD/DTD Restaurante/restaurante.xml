@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE restaurante SYSTEM "ReglasRestaurante.dtd">
+
+<restaurante>
+    <menu>
+        <plato id="1">
+            <nombre-plato></nombre-plato>
+            <categoria></categoria>
+            <ingredientes-menu>
+                <ingrediente-menu></ingrediente-menu>
+            </ingredientes-menu>
+            <precio moneda="EUR"></precio>
+        </plato>
+    </menu>
+
+    <recetas>
+        <receta id="1" comensales="adulto">
+            <nombre-receta></nombre-receta>
+            <ingredientes-receta>
+                <ingrediente-receta cantidad="1" unidad="gramos">
+                    <nombre-ingrediente-receta></nombre-ingrediente-receta>
+                </ingrediente-receta>
+            </ingredientes-receta>
+            <preparacion>
+                <paso orden="1"></paso>
+            </preparacion>
+        </receta>
+    </recetas>
+
+    <clientes>
+        <cliente id="1">
+            <nombre-cliente></nombre-cliente>
+            <telefono></telefono>
+            <mesa cantidad="2"></mesa>
+            <platos-consumidos>
+                <plato-consumido comentario="">
+                    <nombre-plato-consumido></nombre-plato-consumido>
+                    <cantidad></cantidad>
+                </plato-consumido>
+            </platos-consumidos>
+        </cliente>
+    </clientes>
+</restaurante>

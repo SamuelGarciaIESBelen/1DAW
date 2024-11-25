@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE listacursos SYSTEM "Ejercicio1_curso.dtd">
+
+<listacursos>
+    <curso curso="1ºDAW">
+        <alumno>
+            <dni>26831433R</dni>
+            <nombre>Samuel</nombre>
+            <apellido1>García</apellido1>
+            <asignaturas>
+                <asignatura codigo="123">
+                    <nombre>Lenguaje de Marcas</nombre>
+                    <horas>4</horas>
+                    <profesor>
+                        <nrp>123</nrp>
+                        <nombre>Daniel</nombre>
+                        <apellido1>No lo sé</apellido1>
+                        <apellido2>Menos todavía</apellido2>
+                    </profesor>
+                </asignatura>
+                <asignatura codigo="121">
+                    <nombre>Programación</nombre>
+                    <horas>8</horas>
+                    <profesor>
+                        <nrp>121</nrp>
+                        <nombre>Ricardo</nombre>
+                        <apellido1>Tampoco lo sé</apellido1>
+                    </profesor>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+    </curso>
+</listacursos>

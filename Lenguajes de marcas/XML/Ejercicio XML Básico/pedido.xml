@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<envios>
+    <pedido>
+        <destinatario>José Antonio Lojo</destinatario>
+        <articulo>Bicicleta A2020</articulo>
+        <direccion>
+            <calle numero="4">Calle Barco</calle>
+            <piso letra="A">3</piso>
+        </direccion>
+        <fecha>
+            <dia>20</dia>
+            <mes>9</mes>
+            <anno>2019</anno>
+        </fecha>
+    </pedido>
+</envios>

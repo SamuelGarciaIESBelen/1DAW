@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="inventario.xsl" type="text/xsl"?>
+
+<inventario>
+    <producto codigo="D1">
+        <peso unidad="kg">100</peso>
+        <marca modelo= "XT">Yamaha</marca>
+        <localizacion edificio="C">
+            <almacen>2</almacen>
+        </localizacion>
+        <precio moneda="euro">5000</precio>        
+    </producto>
+    <producto codigo="D2">
+        <peso unidad="kg">1001</peso>
+        <marca modelo= "Ibiza">Seat</marca>
+        <localizacion edificio="A">
+            <almacen>1</almacen>
+        </localizacion>
+        <precio moneda="euro">18000</precio>        
+    </producto>
+    <producto codigo="D3">
+        <peso unidad="kg">3000</peso>
+        <marca modelo= "Land Cruiser">Toyota</marca>
+        <localizacion edificio="A">
+            <almacen>1</almacen>
+        </localizacion>
+        <precio moneda="dollar">35000</precio>        
+    </producto>
+    <producto codigo="D4">
+        <peso unidad="kg">70</peso>
+        <marca modelo= "Zip">Piaggio</marca>
+        <localizacion edificio="C">
+            <almacen>2</almacen>
+        </localizacion>
+        <precio moneda="euro">1500</precio>        
+    </producto>
+    <producto codigo="D5">
+        <peso unidad="T">2</peso>
+        <marca modelo= "Cherokee">Jeep</marca>
+        <localizacion edificio="B">
+            <almacen>1</almacen>
+        </localizacion>
+        <precio moneda="dollar">70000</precio>        
+    </producto>
+</inventario>

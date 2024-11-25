@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Web oficial de WWF España | WWF España</title>
+        <link>https://www.wwf.es/</link>
+        <description>
+            Somos la mayor organización independiente dedicada a la defensa de la naturaleza y el
+            medio ambiente. Nuestra visión a largo plazo es tan simple como ambiciosa: crear un
+            mundo dónde la naturaleza y las personas vivan en armonía.
+        </description>
+        <item>
+            <title>El regadío ilegal en Doñana hoy</title>
+            <link>https://www.wwf.es/?66700/El-regadio-ilegal-en-Donana-hoy</link>
+            <description>
+                Denunciamos con este informe la producción de más de 1360,2 hectáreas de cultivos
+                regados ilegalmente en Doñana que está llegando a los mercados. Aproximadamente
+                35.000 toneladas de fresas y frutos rojos cultivados ilegalmente y regados con agua
+                robada podrían estar saliendo hacia los mercados españoles y europeos ante la
+                inacción de las administraciones.
+            </description>
+        </item>
+        <item>
+            <title>Sequías: cuatro errores en la gestión del agua</title>
+            <link>
+                https://www.wwf.es/nuestro_trabajo/agua/cuatro_errores_fatales_en_la_gestion_del_agua/</link>
+            <description>
+                La crisis climática está poniendo al descubierto las debilidades de la mala gestión
+                del agua. Si no hacemos nada distinto, nos enfrentamos a un futuro mucho más
+                incierto y con mayores dificultades para garantizar los recursos con los que
+                abastecer a la agricultura y la ganadería, poniendo en riesgo el suministro de agua
+                potable y también para asegurar el mantenimiento de ecosistemas sanos y funcionales
+                frente a la crisis climática y de biodiversidad que ya estamos padeciendo.
+            </description>
+        </item>
+        <item>
+            <title>Por el futuro del campo</title>
+            <link>https://www.wwf.es/informate/nuestros_expertos_opinan/por_el_futuro_del_campo/</link>
+            <description>
+                El actual sistema agroalimentario sigue dando muestras de su fallido funcionamiento.
+                Cada vez más global, complejo e interdependiente y, a la vez, más vulnerable al
+                cambio climático o a diferentes crisis (pandemias, conflictos bélicos, incremento
+                del precio de los alimentos), como las que hemos vivido en los últimos tiempos. Se
+                trata de un sistema que fomenta una agricultura y ganadería industrializada basada
+                en combustibles fósiles e insumos químicos, como los plaguicidas y los
+                fertilizantes, el consumo excesivo de un agua cada vez más escasa, mano de obra
+                precarizada o materias primas baratas importadas de terceros países, que no siempre
+                cumplen los mismos requisitos legales que se exigen a nuestras producciones.
+            </description>
+        </item>
+    </channel>
+</rss>

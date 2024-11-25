@@ -1,0 +1,84 @@
+body {
+	display: grid;
+	grid-template-columns: repeat(5, 20%);
+	grid-template-rows: 10% 30px 1fr 15% 30%;
+}
+
+header {
+	display: grid;
+	grid-column: 3 / 5;
+	grid-row: 1 / 2;
+	color: rgb(0, 0, 141);
+}
+
+nav {
+	display: grid;
+	grid-column: 1 / 5;
+	grid-row: 2 / 3;
+	background-color: green;
+	color: rgb(164, 205, 50);
+}
+
+.menu {
+	display: flex;
+	
+	/* grid-template-columns: repeat(4, 15%) 1fr; */
+}
+
+nav div {
+	margin: 0 5px 0 5px;
+	align-items: center;
+}
+nav a {
+	background-color: rgba(87, 206, 87, 0.445);
+}
+
+section {
+display: grid;
+grid-column: 1 / 5;
+grid-row: 3 / 4;
+background-color: rgba(216, 255, 152, 0.781);
+padding: 40px;
+}
+
+section h2 {
+	text-align: center;
+	color: rgb(0, 87, 0);
+}
+
+section h3 {
+	color: rgb(83, 46, 153);
+}
+
+section p {
+	border: solid 3px aqua;
+	background-color: white;
+	padding: 15px;
+}
+
+aside {
+display: grid;
+grid-column: 5 / 6;
+grid-row: 2 / 4;
+background-color: rgba(238, 130, 238, 0.568);
+}
+
+aside div {
+	border: solid 2px blue;
+	margin: 20px;
+	background-color: white;
+	padding: 10px;
+}
+
+footer {
+display: grid;
+grid-column: 1 / 6;
+grid-row: 4 / 5;
+background-color: rgba(70, 243, 255, 0.623);
+text-align: center;
+color: blue;
+}
+
+footer a {
+	color: green;
+}

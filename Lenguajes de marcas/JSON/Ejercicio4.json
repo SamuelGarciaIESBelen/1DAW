@@ -1,0 +1,52 @@
+{
+    "estudiantes": [
+        {
+            "nombre_titulo":"1ºDAW",
+            "nombre_estudiante": {
+                "apellidos":"García Zorrilla",
+                "nombre":"Samuel"
+            },
+            "email":"sgarzor433@g.educaand.es",
+            "repite":false,
+            "nombre_amigos":["Antonio","Juan","Javi"],
+            "asignaturas": [
+                {
+                    "nombre":"BBDD",
+                    "nota":9
+                },
+                {
+                    "nombre":"Programación",
+                    "nota":9
+                },
+                {
+                    "nombre":"Inglés",
+                    "nota":10
+                }
+            ]
+        },
+        {
+            "nombre_titulo":"1ºDAW",
+            "nombre_estudiante": {
+                "apellidos":"Martínez Martínez",
+                "nombre":"Juan"
+            },
+            "email":"juan@g.educaand.es",
+            "repite":false,
+            "nombre_amigos":["Antonio","Samuel","Javi"],
+            "asignaturas": [
+                {
+                    "nombre":"BBDD",
+                    "nota":9
+                },
+                {
+                    "nombre":"Programación",
+                    "nota":9
+                },
+                {
+                    "nombre":"Inglés",
+                    "nota":10
+                }
+            ]
+        }
+    ]
+}

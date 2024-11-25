@@ -1,0 +1,12 @@
+¿Cómo funciona un navegador web?
+Un navegador web te lleva a cualquier lugar de Internet. Recupera información de otras partes de la web y la muestra en tu escritorio o dispositivo móvil. La información se transfiere mediante el Protocolo de Transferencia de Hipertexto (HTTP), que define cómo se transmiten el texto, las imágenes y el vídeo en la web. Esta información debe compartirse y mostrarse en un formato consistente para que las personas que utilizan cualquier navegador, en cualquier parte del mundo, puedan ver la información.
+
+Cuando el navegador web obtiene datos de un servidor conectado a Internet, utiliza un software llamado motor de renderizado para traducir esos datos en texto e imágenes. Estos datos están escritos en "lenguaje de marcas de hipertexto" (HTML) y los navegadores web leen este código para construir lo que vemos, escuchamos y experimentamos en Internet.
+
+Principales características:
+navegación por pestañas
+bloqueador de ventanas emergentes
+soporte para motores de búsqueda
+gestor de descargas
+
+Notas al pie1 developer.mozilla.org/

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- Pon aquí tu nombre y apellidos -->
+    <meta name="author" content="Samuel_Garcia_Zorrilla" />
+    <title>Examen 1ºCFGS LM</title>
+<!-- Introduce aquí el código CSS que vas a implementar el HTML NO es necesario modificarlo.
+Si no lo haces con un archivo externo, pon en el comentario cómo se haría -->
+    <link rel="stylesheet" href="Ejercicio2.css">
+<!-- ********************************************************************************** -->
+
+<!-- ********************************************************************************** -->
+</head>
+<body>
+<!-- ********************************************************************************** -->
+<!-- Este es el contenedor principal en el que se aplicará el grid
+Necesitarás: 
+ 3 columnas (1x,4x,1x)
+ 4 filas (1x, 30 pixeles, 5x, 100 pixeles)
+ Para colocar la CABECERA, el NAV, 2 ASIDE (izquierdo y derecho), la SECTION principal y el FOOTER.
+ Aplica a todo el documento:
+ Tipo de letra: Arial.
+ Alineación: centrada.
+Las imágenes tendrán una altura de 150px--> 
+<!-- ********************************************************************************** -->    
+    <div id="contenedor_grid">
+<!-- ********************************************************************************** -->
+<!-- Este es la cabecera del documento
+Tiene:
+Fondo: green
+Color de letra: whitesmoke
+Tipo de letra: PinkBloom.ttf (adjunta)
+Tamaño de letra 50 pixeles-->
+<!-- ********************************************************************************** -->    
+        <header>
+            <h1>Examen Lenguaje de Marcas: CSS</h1>
+        </header>
+<!-- ********************************************************************************** -->
+<!-- Este es el bloque de navegación
+Tiene:
+Fondo: rgb(0, 64, 0)
+Color de letra: yellow
+Tipo de letra: Times
+!!UTILIZA FLEX para alinear los div a la derecha.!!
+Los div tienen un margen vertical de 5px y un margen horizontal de 10 px.
+El fondo es rgba(151, 207, 51, 0.3)
+-->
+<!-- ********************************************************************************** -->    
+        <nav>
+            <div><a> Selectores</a></div>
+            <div><a> Modelo de cajas</a></div>
+            <div><a> Flexbox</a></div>
+            <div><a> Grid</a></div>
+        </nav>
+<!-- Esta es la seccion principal
+Tiene:
+Padding vertical de 20px y horizontal de 50 px.
+El fondo es la imagen iesbelen_fondo.jpg (adjunta)
+
+Los h1 de esta sección tienen:
+tamaño de fuente: 2rem y negrita subrayada con alineación justificada
+El h2 tiene alineación a la derecha y color rgb(85, 85, 85)
+
+Todos los artículos tienen:
+El texto justificado, un padding vertical de 10px y horizontal de 20 px 
+-->
+<!-- ********************************************************************************** -->    
+        <section id="seccion_principal">            
+            <h1>Resultado de Aprendizaje implicado: 2</h1>
+            <h1>Criterios: f,g,h</h1>
+            <hr>
+            <h2><em>Ejercicios</em></h2>
+<!-- Esta es la seccion secundaria 1
+Deberás aplicar FLEX para ordenar los 3 artículos que lo forman
+Los articulos tienen un margen de 10px, un borde de 3px sólido y de color grey con radius de 40px y 5 px
+Los h3 están centrados, de color grey y tamaño 1.2rem
+-->
+<!-- ********************************************************************************** -->    
+            <section class="seccion_secundaria_1">
+                <article id="selectores">
+                    <div>
+                        <h3>1. Selectores</h3>
+                    </div>
+                    <div>
+                        <p> Tendrás que elegir el selector CSS necesario para que se aplique el formato predeterminado, según se indica en el comentario
+                        </p>
+                    </div>
+                    <div><img src="numero.png"> </div>
+                </article>
+                <article id="grid">
+                    <div>
+                        <h3> 2. Grid</h3>
+                    </div>
+                    <div>
+                        <p>Deberás darle estructura grid al documento HTML que se te proporciona.
+                            Además, tendrás que indicar el formato según aparece en los comentarios para que se asemeje lo máximo posible al enunciado.
+                        </p>
+                    </div>
+                    <div><img src="grid.png"></div>
+                </article>
+                <article id="flexbox">
+                    <div>
+                        <h3> 3. Flexbox</h3>
+                    </div>
+                    <div>
+                        <p>Por último, vamos a utilizar flexbox para añadir contendido a nuestra estructura grid.
+                            Deberás añadir las imágenes del aside izquierdo y este bloque de contenidos.
+                        </p>
+                    </div>
+                    <div><img src="flex.png"></div>
+                </article>
+            </section>
+<!-- Esta es la seccion secundaria 2
+Tiene un fondo color #e0d9d9 con margen de 3px y borde de 3 px de color grey con radius de 40px 5px
+Los articulos tienen un margen de 20px, un borde de 3px de color grey con radius de 40px y 5 px y fondo white y texto justificado
+-->
+<!-- ********************************************************************************** -->    
+            <section class="seccion_secundaria_2">
+                <h3> Video promocional</h3>
+                <article>
+                    <div>
+                        <p>Aquí podéis encontrar un video, en el que un alumno muestra sus cualidades de programación                        </p>
+                    </div>
+                    <div><iframe width="560" height="315" src="https://www.youtube.com/embed/OgIRAjnnJzI?si=yXck02cCj_tWsU7_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </div>
+                </article>
+            </section>
+        </section>
+<!-- Este es el aside de publicidad (derecha)
+Tiene un fondo gradiente desde el green al yellow
+Los div pares de este aside tienen un fondo aliceblue un margen de 20px, un padding inferior de 30px y un borde BLUE de 5px  
+Los div impares de este aside tienen un fondo aliceblue un margen de 20px, un padding inferior de 30px y un borde RED de 5px 
+Los párrafos de estos div tienen alineación a la izquierda, negrita, con padding vertical de 0px y horizontal de 10 px
+Además, el título tendrá un tamaño de 1.5rem centrado y el contenido un margen de 0px vertical y 20px horizontal sin negrita
+-->
+<!-- ********************************************************************************** -->    
+        <aside class="anuncio">
+            <div class="impar">
+                <p> Espacio reservado para publicidad</p>
+                <p id="titulo">Anúnciate aquí</p>
+                <p id="contenido"> Da a conocer tu empresa o negocio en Internet anunciándote en este espacio.</p>
+            </div>
+            <div class="par">
+                <p> Espacio reservado para publicidad</p>
+                <p id="titulo">Anúnciate aquí</p>
+                <p id="contenido"> Da a conocer tu empresa o negocio en Internet anunciándote en este espacio.</p>
+            </div>
+            <div class="impar">
+                <p> Espacio reservado para publicidad</p>
+                <p id="titulo">Anúnciate aquí</p>
+                <p id="contenido"> Da a conocer tu empresa o negocio en Internet anunciándote en este espacio.</p>
+            </div>
+            <div class="par">
+                <p> Espacio reservado para publicidad</p>
+                <p id="titulo">Anúnciate aquí</p>
+                <p id="contenido"> Da a conocer tu empresa o negocio en Internet anunciándote en este espacio.</p>
+            </div>
+        </aside>
+<!-- Este es el aside de la Junta (izquierda)
+Tiene un fondo gradiente desde el yellow al rgb(0, 63, 0)
+Las imágenes de ocupar el ancho del 100% del contenedor y la altura máxima que permita la imagen.
+-->
+<!-- ********************************************************************************** -->    
+
+        <aside id="junta">
+            <div><img src="ministerio.png" height="50%"></div>
+            <div><img src="Junta.png" height= 50%></div>
+
+        </aside>
+<!-- Este es el footer
+Tiene un fondo color rgb(0, 63, 0)
+Padding inferior de 40px
+tamaño de fuente de 0.85rem y color yellow
+Tipo de letra Times.-->
+<!-- ********************************************************************************** -->    
+        <footer>
+                <p>Examen realizado por: Samuel_Garcia_Zorrilla</p>
+                <p>1º CFGS DAW</p>
+                <p>Curso 23/24</a></p>
+        </footer>
+    </div>
+</body>
+</html>

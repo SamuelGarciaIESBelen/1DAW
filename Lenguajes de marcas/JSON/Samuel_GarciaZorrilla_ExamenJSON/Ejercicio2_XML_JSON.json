@@ -1,0 +1,117 @@
+{
+    "armarios": [
+        {
+            "-tipo_armario": 1,
+            "articulos": [
+                {
+                    "-tipo_articulo": "Pantalón",
+                    "perchas": [
+                        {
+                            "-disponible": true,
+                            "material": "Vaquero"
+                        },
+                        {
+                            "-disponible": true,
+                            "material": "Lino"
+                        },
+                        {
+                            "-disponible": false,
+                            "material": "Algodón"
+                        }
+                    ]
+                },
+                {
+                    "-tipo_articulo": "Camisa",
+                    "perchas": [
+                        {
+                            "-disponible": false,
+                            "material": "Vaquero"
+                        },
+                        {
+                            "-disponible": true,
+                            "material": "Lino"
+                        },
+                        {
+                            "-disponible": true,
+                            "material": "Algodón"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "-tipo_armario": 2,
+            "articulos": [
+                {
+                    "-tipo_articulo": "Pantalón",
+                    "perchas": [
+                        {
+                            "-disponible": true,
+                            "material": "Chándal"
+                        },
+                        {
+                            "-disponible": true,
+                            "material": "Plástico"
+                        },
+                        {
+                            "-disponible": true,
+                            "material": "Elástico"
+                        }
+                    ]
+                },
+                {
+                    "-tipo_articulo": "Camiseta",
+                    "perchas": [
+                        {
+                            "-disponible": false,
+                            "material": "Chándal"
+                        },
+                        {
+                            "-disponible": false,
+                            "material": "Plástico"
+                        },
+                        {
+                            "-disponible": false,
+                            "material": "Elástico"
+                        },
+                        {
+                            "-disponible": true,
+                            "material": "Lino"
+                        }
+                    ]
+                },
+                {
+                    "-tipo_articulo": "Gorro",
+                    "perchas": [
+                        {
+                            "-disponible": false,
+                            "material": "Vaquero"
+                        },
+                        {
+                            "-disponible": true,
+                            "material": "Lino"
+                        },
+                        {
+                            "-disponible": true,
+                            "material": "Algodón"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "-tipo_armario": 3,
+            "articulos": [
+                {
+                    "-tipo_articulo": "Zapato",
+                    "perchas": [
+                        {
+                            "-disponible": true,
+                            "material": "Cuero"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

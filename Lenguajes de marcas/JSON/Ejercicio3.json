@@ -1,0 +1,42 @@
+{
+    "nombre_completo":"Samuel García Zorrilla",
+    "datos_contacto": {
+        "email":"samuelgz@gmail.com",
+        "telefono":"587 792 966"
+    },
+    "ciudad_origen":"Málaga",
+    "acompañantes": ["Martín Apellido", "Shangshui Apellido", "Juan Apellido", "Javier Apellido", "Manuel Apellido"],
+    "gasto_total":2024,
+    "destinos": [
+        {
+            "satisfecho":true,
+            "ciudad":"Tokyo",
+            "hotel": {
+                "nombre":"Hotel",
+                "estrellas":3,
+                "precio_noche":40,
+                "noches":3
+            }
+        },
+        {
+            "satisfecho":true,
+            "ciudad":"Bali",
+            "hotel": {
+                "nombre":"Hotel",
+                "estrellas":2,
+                "precio_noche":15,
+                "noches":2
+            }
+        },
+        {
+            "satisfecho":true,
+            "ciudad":"Atenas",
+            "hotel": {
+                "nombre":"Hotel",
+                "estrellas":4,
+                "precio_noche":50,
+                "noches":3
+            }
+        }
+    ]
+}

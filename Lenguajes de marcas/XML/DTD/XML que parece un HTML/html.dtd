@@ -1,0 +1,18 @@
+<!ELEMENT html (head, body)>
+<!ELEMENT head (title)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT body (h1, h2*, form)>
+<!ELEMENT h1 (#PCDATA)>
+<!ELEMENT h2 (#PCDATA)>
+<!ELEMENT form (select+, input+)>
+<!ELEMENT select (option+)>
+<!ELEMENT option (#PCDATA)>
+<!ELEMENT input (#PCDATA)>
+
+<!ATTLIST form action CDATA #IMPLIED>
+<!ATTLIST form method (get | post) #IMPLIED>
+<!ATTLIST select name CDATA #IMPLIED>
+<!ATTLIST input type (checkbox | radio | submit | reset) #IMPLIED
+                name CDATA #IMPLIED
+                value CDATA #IMPLIED
+>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ejercicio 7</title>
+</head>
+<body onload="palindromo()">
+	<h1 style="text-align: center;">EJERCICIO 7: PALÍNDROMO</h1>
+	<div id="res" style="text-align: center; font-size: 25px;"/>
+
+	<script>
+		function palindromo() {
+			frase = prompt("Introduce una palabra o una frase");
+
+			fraseLimpia = frase.toLowerCase().trim().replace(/\s/g,'');
+			revFrase = fraseLimpia.split('').reverse().join('');
+			res = fraseLimpia + "<br>" + revFrase + "<br><br>"
+
+			if (fraseLimpia == revFrase)
+				res += "El texto introducido es un palíndromo"
+			else
+				res += "El texto introducido NO es un palíndromo"
+			
+			document.getElementById('res').innerHTML = res;
+		}
+	</script>
+</body>
+</html>

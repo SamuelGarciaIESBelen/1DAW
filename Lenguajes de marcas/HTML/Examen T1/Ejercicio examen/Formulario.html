@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="author" content="Samuel García Zorrilla">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Rellenar</legend>
+			<input type="radio" name="grado" value="asir"> ASIR
+			<input type="radio" name="grado" value="daw"> DAW
+			<input type="radio" name="grado" value="dam"> DAM
+			<br>
+			<br>
+			<textarea name="primertextarea" id="primertextarea" cols="60" rows="10">Inserte aquí el texto</textarea>
+			<br>
+			<br>
+			<select name="curso" id="curso" multiple>
+				<option value="primero">Primero</option>
+				<option value="segundo">Segundo</option>
+				<option value="master">Máster</option>
+			</select>
+			<br>
+			<br>
+			<label for="file">Elija un fichero:</label>
+			<input type="file" id="file">
+			<br>
+			<br>
+			<label for="color">Elija un color:</label>
+			<input type="color" id="color">
+			<br>
+			<br>
+			<input type="checkbox" value="wifi">WiFi
+			<br>
+			<input type="checkbox" value="cable">Cable
+			<br>
+			<input type="checkbox" value="fibra">Fibra
+			<br>
+			<br>
+			<label for="instituto">Instituto </label>
+			<input type="text">
+			<br>
+			<label for="estudios">Estudios elegidos </label>
+			<input type="text">
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Complete, por favor</legend>
+			<textarea name="segundotextarea" id="segundotextarea" cols="65" rows="8">Utilice este recuadro, por favor</textarea>
+			<br>
+			<br>
+			<label for="nombre">Nombre </label>
+			<input type="text">
+			<label for="apellidos">Apellidos </label>
+			<input type="text">
+			<br>
+			<br>
+			<select name="lenguaje" id="lenguaje">
+				<option value="java">Java</option>
+				<option value="python">Python</option>
+				<option value="html">HTML</option>
+				<option value="css">CSS</option>
+			</select>
+			<br>
+			<br>
+			<input type="radio" name="asignatura">Programación
+			<br>
+			<input type="radio" name="asignatura">BBDD
+			<br>
+			<input type="radio" name="asignatura">Lenguaje de marcas
+			<br>
+			<br>
+			<label for="hora">Elija una hora: </label>
+			<input type="time">
+			<br>
+			<label for="fecha">Elija una fecha: </label>
+			<input type="date">
+			<br>
+			<br>
+			<input type="checkbox" value="asir"> ASIR
+			<input type="checkbox" value="daw"> DAW
+			<input type="checkbox" value="dam"> DAM
+		</fieldset>
+	</form>
+	<br>
+	<div style="display: flex; justify-content: right;">
+		<a href="index.html">
+			<button style="font-weight: bold; color: black; background-color: rgb(165, 165, 165);">Volver</button>
+		</a>
+</div>
+</body>
+</html>

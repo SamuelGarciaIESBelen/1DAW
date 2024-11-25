@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:annotation>
+		<xs:appinfo>Validador</xs:appinfo>
+		<xs:documentation>Este schema permite validar el documento XML</xs:documentation>
+	</xs:annotation>
+
+	<xs:simpleType name="tipo_precio">
+		<xs:restriction base="xs:decimal">
+			<xs:minExclusive value="0"/>
+			<xs:fractionDigits value="2"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="tipo_NS">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[a-zA-Z]{6}[0-9]{5}"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="tipo_ip">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-255]{1}.[0-255]{1}.[0-255]{1}.[0-255]{1}"/> <!-- CORREGIR -->
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="tipo_anchobanda">
+		<xs:restriction base="xs:decimal">
+			<xs:minExclusive value="0"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="tipo_modelo">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="laser"/>
+			<xs:enumeration value="tinta"/>
+			<xs:enumeration value="termica"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="sistemas">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Windows"/>
+			<xs:enumeration value="MacOS"/>
+			<xs:enumeration value="Linux"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="tipo_so">
+		<xs:simpleContent>
+			<xs:extension base="sistemas">
+				<xs:attribute name="fechainstalacion" type="xs:date"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:complexType name="tipo_procesador">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="fabricante" type="xs:string" use="optional"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:complexType name="tipo_memoria">
+		<xs:simpleContent>
+			<xs:extension base="xs:positiveInteger">
+				<xs:attribute name="unidad" type="xs:string" use="required"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:element name="nodos">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="router">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="precio" type="tipo_precio"/>
+							<xs:element name="direccionip" type="tipo_ip" minOccurs="0"/>
+							<xs:element name="ancho_banda" type="tipo_anchobanda" minOccurs="0"/>
+						</xs:sequence>
+						<xs:attribute name="NS" type="tipo_NS" use="optional"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="impresora"> <!-- TEXTO -->
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="precio" type="tipo_precio"/>
+							<xs:element name="color" type="xs:boolean"/>
+						</xs:sequence>
+						<xs:attribute name="modelo" type="tipo_modelo" use="required"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ordenador">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="precio" type="tipo_precio"/>
+							<xs:element name="sistemaoperativo" type="tipo_so"/>
+							<xs:element name="procesador" type="tipo_procesador" minOccurs="0"/>
+							<xs:element name="memoria" type="tipo_memoria" minOccurs="0"/>
+							<xs:element name="discoduro" type="xs:positiveInteger" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

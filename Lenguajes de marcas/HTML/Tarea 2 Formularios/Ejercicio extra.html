@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario extra</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Preferencias</legend>
+			<select name="velocidad" id="velocidad" multiple>
+				<option value="100_mbits" selected="selected">100 Mbits</option>
+				<option value="1000_mbits" selected="selected">1000 Mbits</option>
+			</select>
+			<br>
+			<br>
+			<label for="dni">DNI: </label>
+			<input type="text" name="dni">
+			<br>
+			<label for="nombre">Nombre: </label>
+			<input type="text" name="nombre">
+			<br>
+			<label for="apellidos">Apellidos: </label>
+			<input type="text" name="apellidos">
+			<br>
+			<label for="email">Email: </label>
+			<input type="text" name="email">
+			<br>
+			<br>
+			<label for="color">Elija un color: </label>
+			<input type="color">
+			<br>
+			<br>
+			<textarea name="textarea" id="" cols="49" rows="6">Por favor, escriba aquí</textarea>
+			<br>
+			<br>
+			<input type="checkbox" name="procesador" value="procesadoramd">AMD
+			<br>
+			<input type="checkbox" name="procesador" value="procesadorintel_i5">Intel i5
+			<br>
+			<input type="checkbox" name="procesador" value="procesadorintel_i7">Intel i7
+			<br>
+			<br>
+			<label for="time">Elija una hora: </label>
+			<input type="time">
+			<br>
+			<br>
+			<input type="radio" name="red" value="red2g">2G
+			<br>
+			<input type="radio" name="red" value="red3g">3G
+			<br>
+			<input type="radio" name="red" value="red4g">4G
+			<br>
+			<br>
+			<label for="file">Elija un fichero: </label>
+			<input type="file" name="file" value="file">
+		</fieldset>
+		<fieldset>
+			<legend>Opciones</legend>
+			<input type="checkbox" name="asignatura" value="asignaturahistoria">Historia
+			<br>
+			<input type="checkbox" name="asignatura" value="asignaturageografia">Geografía
+			<br>
+			<input type="checkbox" name="asignatura" value="asignaturalengua">Lengua
+			<br>
+			<input type="checkbox" name="asignatura" value="asignaturamatematicas">Matemáticas
+			<br>
+			<br>
+			<label for="time">Elija una hora: </label>
+			<input type="time">
+			<br>
+			<br>
+			<label for="file">Elija un fichero: </label>
+			<input type="file" name="file" value="file">
+			<br>
+			<br>
+			<textarea name="textarea2" id="textarea2" cols="49" rows="8">Inserte aquí el texto</textarea>
+		</fieldset>
+	</form>
+</body>
+
+</html>

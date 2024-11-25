@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario 2 CSS</title>
+	<link rel="stylesheet" href="formulario2.css">
+</head>
+
+<body>
+	<div class="form">
+		<form>
+			<h1>- Pedido de Pizza -</h1>
+			<div class="name">
+				<label for="name">Nombre</label>
+				<input type="text" class="text">
+			</div>
+			<div class="address">
+				<label for="address">Dirección</label>
+				<input type="text" class="text">
+			</div>
+			<div class="options">
+				<div class="ingredients">
+					<label for="ingredients">Ingredientes</label>
+					<div>
+						<input type="checkbox" name="ingredients" value="cheese"> Queso
+					</div>
+					<div>
+						<input type="checkbox" name="ingredients" value="pepper"> Pimiento
+					</div>
+					<div>
+						<input type="checkbox" name="ingredients" value="onion"> Cebolla
+					</div>
+				</div>
+				<div class="size">
+					<label for="size">Tamaño</label>
+					<div>
+						<input type="radio" name="size" value="small"> Pequeña
+					</div>
+					<div>
+						<input type="radio" name="size" value="medium"> Mediana
+					</div>
+					<div>
+						<input type="radio" name="size" value="large"> Grande
+					</div>
+				</div>
+				<div class="payment">
+					<label for="payment">Forma de pago</label>
+					<select name="payment" id="payment">
+						<option value="visa">VISA</option>
+						<option value="master">MasterCard</option>
+						<option value="revolut">Revolut</option>
+						<option value="paypal">PayPal</option>
+						<option value="gpay">Google Pay</option>
+					</select>
+				</div>
+			</div>
+			<div class="instructions">
+				<label for="instructions" style="width: auto;">Instrucciones especiales</label>
+				<div class="comment">
+					<textarea name="comment" id="comment" cols="70" rows="6"></textarea>
+				</div>
+			</div>
+			<div class="buttons">
+				<button>Enviar!</button>
+				<button>Borrar!</button>
+			</div>
+		</form>
+	</div>
+</body>
+
+</html>

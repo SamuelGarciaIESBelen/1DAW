@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jugadores>
+ 
+<jugador id="1">
+ <nombre>Dioni </nombre>
+ <equipo>Malaga CF</equipo>
+ <precio contrato="anual" moneda="euro">27000000</precio>
+ <numero>17</numero>
+ <comienzo>2022/01/01</comienzo>
+ <fin>2024/06/30</fin>
+ <entrenador>Sergio Pellicer</entrenador>
+ <categoria>1 RFEF</categoria>
+</jugador>
+
+<jugador id="2">
+  <nombre>Mbappé</nombre>
+  <equipo>Paris SG</equipo>
+  <precio contrato="trimestral" moneda="euro">150000000</precio>
+  <numero>7</numero>
+  <comienzo>2019/01/01</comienzo>
+  <fin>2024/06/30</fin>
+  <entrenador>Luis Enrique</entrenador>
+  <categoria>Ligue 1</categoria>
+ </jugador>
+
+ <jugador id="3">
+  <nombre>Haaland </nombre>
+  <equipo>Manchester City</equipo>
+  <precio contrato="anual" moneda="libra">100000000</precio>
+  <numero>9</numero>
+  <comienzo>2018/01/01</comienzo>
+  <fin>2024/06/30</fin>
+  <entrenador>Pep Guardiola</entrenador>
+  <categoria>Premier Ligue</categoria>
+ </jugador>
+
+ <jugador id="4">
+  <nombre>Bellingham </nombre>
+  <equipo>Real Madrid</equipo>
+  <precio contrato="anual" moneda="euro">80000000</precio>
+  <numero>5</numero>
+  <comienzo>2021/01/01</comienzo>
+  <fin>2024/06/30</fin>
+  <entrenador>Ancelotti</entrenador>
+  <categoria>La Liga</categoria>
+ </jugador>
+
+ <jugador id="5">
+  <nombre>Lamine Yamal </nombre>
+  <equipo>Barcelona</equipo>
+  <precio contrato="trimestral" moneda="euro">1000000</precio>
+  <numero>27</numero>
+  <comienzo>2023/01/01</comienzo>
+  <fin>2024/06/30</fin>
+  <entrenador>Xavi</entrenador>
+  <categoria>La Liga</categoria>
+ </jugador>
+
+ <jugador id="6">
+  <nombre>Ødegaard</nombre>
+  <equipo>Arsenal</equipo>
+  <precio contrato="anual" moneda="libra">50000000</precio>
+  <numero>9</numero>
+  <comienzo>2022/01/01</comienzo>
+  <fin>2024/06/30</fin>
+  <entrenador>Arteta</entrenador>
+  <categoria>Premier Ligue</categoria>
+ </jugador>
+
+</jugadores>

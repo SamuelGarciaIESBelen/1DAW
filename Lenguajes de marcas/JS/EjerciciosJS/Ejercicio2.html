@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body onload="factorial()">
+    
+    <h1 style="text-align: center;">EJERCICIO 2: FACTORIAL</h1>
+    <div id="resultado" style="text-align: center; font-size: 25px;"></div>
+
+    <script>
+        function factorial() {
+            num = Number(prompt("Introduce un número para sacar su factorial"));
+            factorial = 1;
+
+            if (isNaN(num))
+                alert("Un número, he dicho");
+            else {
+                for (let index = 1; index < num; index++) {
+                    factorial += factorial * index;
+                }
+            }
+            document.getElementById('resultado').innerHTML = "El factorial de " + num + " es " + factorial;
+        }
+    </script>
+</body>
+</html>

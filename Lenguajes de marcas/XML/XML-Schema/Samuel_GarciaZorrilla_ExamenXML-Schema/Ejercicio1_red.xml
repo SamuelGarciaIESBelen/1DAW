@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nodos  xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+        xs:noNamespaceSchemaLocation="Ejercicio1_red.xsd"> 
+    <router NS = "AbCdEf12345"> 
+        <precio>210.15</precio> 
+        <direccionip>192.168.1.10</direccionip>
+    </router>      
+    <impresora modelo="laser"> 
+        Epson 
+        <precio>120.22</precio> 
+        <color>true</color> 
+    </impresora> 
+    <ordenador> 
+        <precio>650.50</precio> 
+        <sistemaoperativo fechainstalacion="2022-01-02">Windows</sistemaoperativo> 
+        <procesador fabricante="Intel">i5</procesador> 
+        <memoria unidad="GB">8</memoria> 
+        <discoduro>1024</discoduro> 
+    </ordenador> 
+</nodos>

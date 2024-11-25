@@ -1,0 +1,49 @@
+    
+<!ELEMENT restaurante (menu, recetas, clientes)>
+
+<!-- MENÚ -->
+<!ELEMENT menu (plato+)>
+<!ELEMENT plato (nombre-plato, categoria, ingredientes-menu, precio)>
+<!ELEMENT nombre-plato (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT ingredientes-menu (ingrediente-menu+)>
+<!ELEMENT ingrediente-menu (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+
+<!ATTLIST precio moneda (USD | EUR | GBP) #REQUIRED>
+<!ATTLIST plato id ID #REQUIRED>
+<!-- MENÚ -->
+
+<!-- RECETAS -->
+<!ELEMENT recetas (receta+)>
+<!ELEMENT receta (nombre-receta, ingredientes-receta, preparacion)>
+<!ELEMENT nombre-receta (#PCDATA)>
+<!ELEMENT ingredientes-receta (ingrediente-receta+)>
+<!ELEMENT ingrediente-receta (nombre-ingrediente-receta)>
+<!ELEMENT nombre-ingrediente-receta (#PCDATA)>
+<!ELEMENT preparacion (paso+)>
+<!ELEMENT paso (#PCDATA)>
+
+<!ATTLIST receta comensales (adulto | niño) #REQUIRED>
+<!ATTLIST ingrediente-receta cantidad CDATA #REQUIRED>
+<!-- <!ENTITY unidad "(gramos | kilos | litros | cucharada | unidades)"> -->
+<!ATTLIST ingrediente-receta unidad (gramos | kilos | litros | cucharada | unidades) #REQUIRED>
+<!ATTLIST paso orden CDATA #REQUIRED>
+<!ATTLIST receta id ID #REQUIRED>
+<!-- RECETAS -->
+
+<!-- CLIENTES -->
+<!ELEMENT clientes (cliente+)>
+<!ELEMENT cliente (nombre-cliente, telefono?, mesa, platos-consumidos)>
+<!ELEMENT nombre-cliente (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT mesa (#PCDATA)>
+<!ELEMENT platos-consumidos (plato-consumido+)>
+<!ELEMENT plato-consumido (nombre-plato-consumido, cantidad)>
+<!ELEMENT nombre-plato-consumido (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+
+<!ATTLIST mesa cantidad CDATA #REQUIRED>
+<!ATTLIST plato-consumido comentario CDATA #IMPLIED>
+<!ATTLIST cliente id ID #REQUIRED>
+<!-- CLIENTES -->

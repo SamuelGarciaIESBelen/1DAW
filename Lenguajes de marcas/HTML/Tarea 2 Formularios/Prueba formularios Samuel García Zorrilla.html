@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Prueba formularios</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Rellenar</legend>
+			<input type="radio" name="idioma" value="idiomaingles">Inglés
+			<br>
+			<input type="radio" name="idioma" value="idiomaaleman">Alemán
+			<br>
+			<input type="radio" name="idioma" value="idiomafrances">Francés
+			<br>
+			<br>
+			<select name="conector">
+				<option value="usb">USB</option>
+				<option value="paralelo">Paralelo</option>
+				<option value="ps2">PS2</option>
+			</select>
+			<br>
+			<br>
+			<label for="nombre">Nombre</label>
+			<input type="text">
+			<br>
+			<label for="apellidos">Apellidos</label>
+			<input type="text">
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Indique sus preferencias, por favor</legend>
+			<select name="sexo" multiple>
+				<option value="hombre">Hombre</option>
+				<option value="mujer">Mujer</option>
+			</select>
+			<br>
+			<br>
+			<input type="checkbox" name="sexo" value="sexomujer">Mujer
+			<br>
+			<input type="checkbox" name="sexo" value="sexohombre">Hombre
+			<br>
+			<br>
+			<label for="date">Elija una fecha: </label>
+			<input type="date">
+		</fieldset>
+	</form>
+</body>
+</html>

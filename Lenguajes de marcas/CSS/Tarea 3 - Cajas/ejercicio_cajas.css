@@ -1,0 +1,45 @@
+/* Para el primer parrafo, color de fuente #2d6921, borde de 3px dotted y color #d66f0f, anchura de 500px,
+fuente en negrita, relleno en los cuatro lados de 20px, texto alineado a la derecha y un margen inferior de 100px.
+
+Para el segundo parrafo, borde de 3px solido y color azul, anchura 500px,
+centrado automáticamente, relleno a los cuatro lados de 50px y la fuente en cursiva.
+
+Para el tercer parrafo, anchura del 30%, borde de 6px outset y color #666,
+relleno a los cuatro lados de 10px, texto justificado y un interlineado de 30px.
+
+Para el cuarto parrafo, anchura del 75%, borde superior de 3px solido y color #f0377b. */
+
+p {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.primero {
+	padding: 20px;
+	color: #2d6921;
+	border: 3px dotted #d66f0f;
+	width: 500px;
+	font-weight: bold;
+	text-align: right;
+	margin-bottom: 100px;
+}
+
+.segundo {
+	border: 3px solid blue;
+	width: 500px;
+	margin: auto;
+	padding: 50px;
+	font-style: italic;
+}
+
+.tercero {
+	width: 30%;
+	border: 6px outset #666;
+	padding: 10px;
+	text-align: justify;
+	line-height: 30px;
+}
+
+.cuarto {
+	width: 75%;
+	border-top: 3px solid #f0377b;
+}

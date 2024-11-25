@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viaje>
+	<clientes>
+		<cliente id="1" nombre="Samuel" apellidos="García Zorrilla">
+			<fecha_inicio dia="23" mes="6" anno="2024"></fecha_inicio>
+			<fecha_fin dia="28" mes="6" anno="2024"></fecha_fin>
+			<origen>Madrid</origen>
+			<destinos>
+				<destino id="1">
+					<ciudad>Kioto</ciudad>
+					<hotel noches="1">Elcient</hotel>
+				</destino>
+				<destino id="2">
+					<ciudad>Yokohama</ciudad>
+					<hotel noches="1">Sotetsu</hotel>
+				</destino>
+				<destino id="3">
+					<ciudad>Tokyo</ciudad>
+					<hotel noches="2">Ryogoku</hotel>
+				</destino>
+			</destinos>
+			<precio>2500€</precio>
+		</cliente>
+		<cliente id="2" nombre="Javierç" apellidos="Molina Galdeano">
+			<fecha_inicio dia="23" mes="6" anno="2024"></fecha_inicio>
+			<fecha_fin dia="28" mes="6" anno="2024"></fecha_fin>
+			<origen>Madrid</origen>
+			<destinos>
+				<destino id="1">
+					<ciudad>Kioto</ciudad>
+					<hotel noches="1">Elcient</hotel>
+				</destino>
+				<destino id="2">
+					<ciudad>Yokohama</ciudad>
+					<hotel noches="1">Sotetsu</hotel>
+				</destino>
+				<destino id="3">
+					<ciudad>Tokyo</ciudad>
+					<hotel noches="2">Ryogoku</hotel>
+				</destino>
+			</destinos>
+			<precio>2500€</precio>
+		</cliente>
+	</clientes>
+</viaje>

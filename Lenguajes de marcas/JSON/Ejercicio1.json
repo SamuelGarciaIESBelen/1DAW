@@ -1,0 +1,10 @@
+{
+    "nombre":"Batman Inc.",
+    "datos": {
+        "direccion":"Av. de Isaac Peral, 16",
+        "telefono":"587 792 966",
+        "email":"evilneversleeps@gotham.city"
+    },
+    "empleados":1939,
+    "deudas":false
+}

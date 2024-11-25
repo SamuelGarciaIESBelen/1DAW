@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cine xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsd:noNamespaceSchemaLocation="cine.xsd">
+	<pelicula>
+		<titulo>Mad Max</titulo>
+		<director>George Miller</director>
+		<estreno>15 mayo 2015</estreno>
+		<reparto>Tom Hardy</reparto>
+		<reparto>Charlize Theron</reparto>
+		<reparto>Nicholas Hoult</reparto>
+	</pelicula>
+	<pelicula>
+		<titulo>Inside Out</titulo>
+		<director>Pete Docter</director>
+		<estreno>17 junio 2015</estreno>
+		<reparto>Amy Poehler</reparto>
+		<reparto>Phyllis Smith</reparto>
+		<reparto>Bill Hader</reparto>
+	</pelicula>
+</cine>

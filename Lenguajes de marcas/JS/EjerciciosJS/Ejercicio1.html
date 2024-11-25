@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ejercicio 1</title>
+
+	<style>
+		h1, div, form {
+			text-align: center;
+			align-items: center;
+		}
+		#entrada1 {
+			color: red;
+			font-size: 20px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		#entrada2 {
+			color: red;
+			font-size: 20px;
+			font-weight: bold;
+			margin-bottom: 50px;
+		}
+		#resultado {
+			color: green;
+			font-size: 50px;
+			font-weight: bold;
+			margin-top: 50px;
+		}
+		input {
+			height: 50px;
+			width: 175px;
+			font-size: 25px;
+		}
+		#salida {
+			text-align: center;
+			font-size: 100px;
+		}
+	</style>
+</head>
+<body onload="iniciar()">
+	<h1 style="text-align: center;">EJERCICIO 1 - MENÚ</h1>
+	
+	<h2>Calculadora sencilla</h2>
+	
+	<ul>
+		<li>Pulse 1 para sumar</li>
+		<li>Pulse 2 para restar</li>
+		<li>Pulse 3 para multiplicar</li>
+		<li>Pulse 4 para dividir</li>
+		<li>Pulse 5 para obtener el resto</li>
+		<li>Pulse 6 para salir</li>
+	</ul>
+
+	<div id="entrada1"></div>
+	<div id="entrada2"></div>
+
+	<form>
+		<input type="button" value="OPERACIÓN" onclick="operacion()">
+	</form>
+
+	<div id="resultado"></div>
+
+	<div id="salida"></div>
+
+	<script>
+		function iniciar() {
+			input1 = Number(prompt("Introduce el primer número"));
+			input2 = Number(prompt("Introduce el segundo número"));
+
+			document.getElementById('entrada1').innerHTML = "Primer valor = " + input1;
+			document.getElementById('entrada2').innerHTML = "Segundo valor = " + input2;
+		}
+
+		function operacion() {
+			var x = Number(prompt("Introduce una opción"));
+			var w = document.getElementById('resultado');
+			switch (x) {
+				case 1:
+					w.innerHTML = input1 + input2;
+					break;
+				case 2:
+					w.innerHTML = input1 - input2;
+					break;
+				case 3:
+					w.innerHTML = input1 * input2;
+					break;
+				case 4:
+					w.innerHTML = input1 / input2;
+					break;
+				case 5:
+					w.innerHTML = input1 % input2;
+					break;
+				case 6:
+					document.body.innerHTML = "HA ESCOGIDO UNA VÍA SIN RETORNO";
+					break;
+			}
+		}
+	</script>
+</body>
+</html>

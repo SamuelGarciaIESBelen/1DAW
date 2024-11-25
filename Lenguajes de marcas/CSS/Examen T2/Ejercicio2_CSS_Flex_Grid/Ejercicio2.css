@@ -1,0 +1,206 @@
+div#contenedor_grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 30px 5fr 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+img {
+    height: 150px;
+}
+
+@font-face {
+    font-family: PinkBloom;
+    src: url(PinkBloom.ttf);
+}
+
+header {
+    display: grid;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    background-color: green;
+    color: whitesmoke;
+    font-family: PinkBloom;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    display: grid;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    background-color: rgb(0, 64, 0);
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: right;
+}
+
+nav div {
+    margin: 5px 10px 5px 10px;
+    background-color: rgba(151, 207, 51, 0.3);
+}
+
+section#seccion_principal {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    padding: 20px 50px 20px 50px;
+    background-image: url(iesbelen_fondo.jpg);
+}
+
+section#seccion_principal h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: justify;
+    text-decoration: underline;
+}
+
+section#seccion_principal h2 {
+    text-align: right;
+    color: rgb(85, 85, 85);
+}
+
+section#seccion_principal h3 {
+    text-align: center;
+    color: grey;
+    font-size: 1.2rem;
+}
+
+section#seccion_principal article {
+    text-align: justify;
+    padding: 10px 20px 10px 20px;
+}
+
+section.seccion_secundaria_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section.seccion_secundaria_1 article {
+    margin: 10px;
+    border: 3px solid grey;
+    border-radius: 40px 5px;
+}
+
+section.seccion_secundaria_1 article {
+    height: 400px;
+    width: 25%;
+}
+
+section.seccion_secundaria_1 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.seccion_secundaria_1 article#selectores {
+    background-color: lime;
+}
+
+section.seccion_secundaria_1 article#grid {
+    background-color: white;
+}
+
+section.seccion_secundaria_1 article#flexbox {
+    background-color: green;
+}
+
+section.seccion_secundaria_2 {
+    justify-self: center;
+    width: 85%;
+    background-color: #e0d9d9;
+    margin: 3px;
+    border: 3px solid grey;
+    border-radius: 40px 5px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+section.seccion_secundaria_2 article {
+    margin: 20px 20px 0 20px;
+    border: 3px solid grey;
+    border-radius: 40px 5px;
+    background-color: white;
+    text-align: justify;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+section.seccion_secundaria_2 div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+section.seccion_secundaria_2 iframe {
+    margin: 20px 0 20px 0;
+}
+
+aside.anuncio {
+    display: grid;
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+    background: linear-gradient(green, yellow);
+}
+
+aside.anuncio div.impar {
+    background-color: aliceblue;
+    margin: 20px;
+    padding-bottom: 30px;
+    border: 5px solid blue;
+}
+
+aside.anuncio div.par {
+    background-color: aliceblue;
+    margin: 20px;
+    padding-bottom: 30px;
+    border: 5px solid red;
+}
+
+aside.anuncio p {
+    text-align: left;
+    font-weight: bold;
+    padding: 0 10px 0 10px;
+}
+
+aside.anuncio p#titulo {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+aside.anuncio p#contenido {
+    margin: 0 30px 0 30px;
+    font-weight: normal;
+}
+
+aside#junta {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    background: linear-gradient(yellow, rgb(0, 63, 0));
+}
+
+aside#junta img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    display: grid;
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    background-color: rgb(0, 63, 0);
+    padding-bottom: 40px;
+    font-size: 0.85rem;
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+footer p {
+    margin: 10px 0 5px 0;
+}

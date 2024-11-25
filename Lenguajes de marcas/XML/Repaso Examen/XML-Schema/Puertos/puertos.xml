@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--El elemento raíz es movimientos y siempre lleva un atributo fecha-->
+	<movimientos fecha="2022-03-01"
+				xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+				xs:noNamespaceSchemaLocation="puertos.xsd">
+		<!--Dentro de movimiento hay infinitos elementos "entrada" o
+			"salida" que pueden repetirse y/o ir en cualquier orden-->
+		<entrada>
+			<!--El codigo de barco siempre lleva un atributo "país"
+				que contiene cadenas. El codigo de barco siempre es
+				una B seguida un número de entre 4 y 6 cifras-->
+			<codigobarco país="Panamá">B0143</codigobarco>
+			<!--Siempre hay un elemento origen que acepta cadenas-->
+			<origen>Atenas</origen>
+			<!--Puede haber 0 o muchos elementos "pasa_por" y que
+			lleva dentro cadenas-->
+			<pasa_por>Algeciras</pasa_por>
+			<pasa_por>Oporto</pasa_por>
+			<!--Siempre hay un destino que lleva dentro cadenas-->
+			<destino>Amberes</destino>
+		</entrada>
+		<!--La salida siempre lleva un codigo que puede ser "01",
+			"49" o "DESC"-->
+		<salida codigo="01">
+			<codigobarco>B0143</codigobarco>
+			<!--Puede llevar o no un elemento VACÍO llamado
+				"tasaspagadas"-->
+			<tasaspagadas/>
+		</salida>
+	</movimientos>

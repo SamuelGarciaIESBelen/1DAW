@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Estructura final que debemos conseguir-->
+<datos>
+    <cuentas>
+        <cuenta dnititular="5671001D">
+            <creacion>13-abril-2012</creacion>
+            <titular>Ramon Perez</titular>
+            <saldoactual>12000 euros</saldoactual>
+
+        </cuenta>
+        <cuenta dnititular="39812341C">
+            <creacion>15-febrero-2011</creacion>
+            <titular>Carmen Diaz</titular>
+            <saldoactual>1900 euros</saldoactual>
+
+        </cuenta>
+    </cuentas>
+    <fondos>
+        <fondo cuentaasociada="20-A">
+            <cantidaddepositada>20000</cantidaddepositada>
+            <moneda>Euros</moneda>
+        </fondo>
+        <fondo cuentaasociada="21-DX">
+            <cantidaddepositada>4800</cantidaddepositada>
+            <moneda>Dolares</moneda>
+        </fondo>
+    </fondos>
+</datos>

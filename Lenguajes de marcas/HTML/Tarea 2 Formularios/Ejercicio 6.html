@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ejercicio 6</title>
+</head>
+
+<body>
+	<form>
+		<fieldset>
+			<legend>Laboral</legend>
+			<input type="checkbox">Por cuenta ajena
+			<input type="checkbox">Autónomo
+			<br>
+			<label for="extranjero">¿Alguna vez en el extranjero?</label>
+			<br>
+			<input type="radio" name="extranjero">Sí
+			<select name="extranjero" id="extranjero">
+				<option value="UE">Dentro de la UE</option>
+				<option value="US">América</option>
+				<option value="asia">Asia</option>
+				<option value="other">Otro</option>
+			</select>
+			<br>
+			<input type="radio" name="extranjero">No
+		</fieldset>
+		<fieldset>
+			<legend>Personal</legend>
+			<label for="nombre">Apellidos y nombre:</label>
+			<input type="text">
+			<br>
+			<label for="know">Conocimientos sobre:</label>
+			<br>
+			<select name="know" id="know" multiple>
+				<option value="info">Informática</option>
+				<option value="drive">Conducción</option>
+				<option value="finanzas">Finanzas</option>
+				<option value="law">Leyes</option>
+			</select>
+		</fieldset>
+	</form>
+</body>
+
+</html>

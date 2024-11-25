@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:simpleType name="tipo_codigo">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]{3}[a-z]{2}"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="tipo_idioma">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ES"/>
+			<xs:enumeration value="EN"/>
+			<xs:enumeration value="FR"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="tipo_peso">
+		<xs:restriction base="xs:positiveInteger">
+			<xs:minInclusive value="50"/>
+			<xs:maxInclusive value="1500"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="tipo_descripcion">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="idioma" type="tipo_idioma" use="required"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:element name="listaarticulos">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="articulo" minOccurs="2" maxOccurs="6">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="codigo" type="tipo_codigo"/>
+							<xs:element name="descripcion" type="tipo_descripcion" minOccurs="0"/>
+							<xs:element name="peso" type="tipo_peso"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+</xs:schema>

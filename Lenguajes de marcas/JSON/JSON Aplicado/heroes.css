@@ -1,0 +1,54 @@
+/* || general styles */
+
+html {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+
+@font-face {
+	font-family: heroes;
+	src: url(heroesfont/SuperSquad.ttf);
+}
+
+h1, h2 {
+  font-family: 'heroes';
+}
+
+/* header styles */
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+header p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* section styles */
+
+section article {
+  width: 33%;
+  float: left;
+}
+
+section p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+section ul {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}

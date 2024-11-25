@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="cine">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="pelicula" minOccurs="1" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="pelicula">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="titulo" type="xsd:string"/>
+                <xsd:element name="director" type="xsd:string"/>
+                <xsd:element ref="estreno"/>
+                <xsd:element ref="reparto" minOccurs="1" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="estreno" type="xsd:date"></xsd:element>
+    <xsd:element name="reparto" type="xsd:string"></xsd:element>
+</xsd:schema>

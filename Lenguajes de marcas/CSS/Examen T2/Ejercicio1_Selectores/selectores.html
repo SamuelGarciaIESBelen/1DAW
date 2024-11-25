@@ -1,0 +1,239 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<!-- Indica tu nombre y apellidos -->
+    <meta name="author" content="Samuel_Garcia_Zorrilla" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página Personal</title>
+    <style>
+        /* 
+        EJERCICIO 1: Completa con los selectores correspondientes
+        *****NO DEBES TOCAR NADA QUE NO SEA EL SELECTOR*****
+        1. Todos los elementos de la pagina */
+        * {
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /*2. Todos los parrafos de la pagina */
+        p {
+        color: #d14c4c;
+        }
+
+        /*3. Todos los enlaces contenidos en el nav */
+        nav a {
+        background-color: rgb(88, 153, 51);
+        }
+
+        /*4. Todos los h3 que son hijos directos de section */
+        section>h3 {
+            background-color: yellow;
+        }
+
+        /*5. Los atributos que sean type */
+        [type] {
+            color: #0000BB;
+            background-color: #FFFFCC;
+        }
+
+        /*6. La clase portafolio */
+        .portafolio {
+            color: #FFFF00;
+            background: #000000;
+        }
+
+        /*7. Las clase fotos pares */
+        .fotos:nth-child(even) {
+            color: #FFFF00;
+            background: #4b3232;
+        }
+
+        /*8. Las clase fotos impares */
+        .fotos:nth-child(odd) {
+            color: #FFFF00;
+            background: #d84949;
+        }
+
+        /*9. El id contacto */
+        #contacto {
+            font-weight: bold;
+        }
+
+        /*10. La primera letra de la clase quienes-parrafo*/
+        .quienes-parrafo::first-letter {
+            font-weight: bold;
+            font-size: 4em;
+            color: cadetblue;
+        }
+
+        /*11. añade un corazon antes de cada enlace*/
+        a::before {
+            content: "♥"
+        }
+
+        /*12. añade un corazon despues de cada enlace*/
+        a::after {
+            content: "♥"
+        }
+
+        /*12. modifica el corazon por una flor de lis en el enlace que es hijo
+        de la clase contenido-header*/
+        .contenido-header a::before {
+            content: "⚜"
+        }
+        .contenido-header a::after {
+            content: "⚜"
+        }
+
+        /*13. cambia el fondo de los imput que sean el primer hijo de su padre*/
+        input:first-child {
+            background: #49d863; 
+        }
+
+        /*14. bordea las imagenes hijas de la clase tarjeta */
+        .tarjeta img {
+            border: 1em;
+            border-style: solid ;
+            border-color: #49d863; 
+        }
+        /*15. ponle un borde a la imagen que es descendiente de la clase tarjeta y hermana de h3*/
+        .tarjeta h3~img {
+            border: 1em;
+            border-style: dotted;
+            border-color: pink; 
+        }
+        /*16. dentro de la clase contenido-header aquellos que no son h2*/
+        .contenido-header:not(h2) {
+            font-weight: bold;
+            font-size: 2em;
+        }
+        /*17. la etiqueta textarea*/
+        textarea {
+            background-color: aquamarine;
+        }
+        /*18. la section que es hija de la clase contenedor*/
+        .contenedor>section {
+            display: flex;
+            flex-direction: row;
+        }
+        /*19. hijos del form que tengan el atributo type*/
+        form[type] {
+            font-weight: bold;
+            font-size: 2em;
+        }
+        /*20. los parafos que van justo detras de un h2 (hermano adyacente)*/
+        h2 + p {
+        color: gold;
+        }
+        /*******NO TOCAR CÓDIGO POR DEBAJO**********/
+    </style>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <h3>NAVEGADOR</h3>
+                <a href="">Inicio</a>
+                <a href="">Acerca de</a>
+                <a href="">Portafolio</a>
+                <a href="">Contacto</a>
+            </nav>
+            <div class="contenido-header">
+                <h1 class="titulo-header">IES Belén</h1>
+                <span class="linea-header"></span>
+                <h2 class="texto-header">Lorem ipsum, dolor sit amet consectetur <span class="desaparecer">esto es un span</span></h2>
+                <a href="">Entrar</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="quienes">
+            <h3 class="quienes-titulo">1º CFGS DAW/DAM</h3>
+           <div class="contenedor">
+               <h2>¿Quienes somos?</h2>               
+               <p class="quienes-parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, quia recusandae dolor cum, eveniet voluptate itaque
+                voluptatibus iure perspiciatis sequi quisquam inventore. Necessitatibus quasi voluptatem iusto, ea suscipit blanditiis
+                ab architecto, eveniet autem dolore fugiat laborum optio dicta in. Eligendi harum repellendus amet provident placeat quas
+                distinctio neque dolores magni!</p>
+            </div> 
+        </section>
+        <section class="quehacemos">
+            <h3 class="titulo-tarjeta">Lorem ipsum dolor sit.</h3>
+            <div class="contenedor">
+                <div class="contenido-cajas">
+                    <div class="tarjeta">
+                        <img src="img/icono1.png" alt="" class="imagen-tarjeta">
+                        <div class="contenido-tarjeta">
+                            
+                            <p class="parrafo-tarjeta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, blanditiis quaerat pariatur minima a veritatis.</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta">  
+                        <img src="img/icono2.png" alt="" class="imagen-tarjeta">                          
+                            <div class="contenido-tarjeta">                               
+                                <h3 class="titulo-tarjeta">Lorem ipsum dolor sit.</h3>
+                                <p class="parrafo-tarjeta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, blanditiis quaerat pariatur minima a veritatis.</p>
+                                
+                            </div>
+                    </div>
+                    <div class="tarjeta">
+                            <h3 class="titulo-tarjeta">Lorem ipsum dolor sit.</h3>
+                            <img src="img/icono3.png" alt="" class="imagen-tarjeta">
+                            <div class="contenido-tarjeta">                              
+                            <p class="parrafo-tarjeta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, blanditiis quaerat pariatur minima a veritatis.</p>
+                             </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <div class="portafolio-textos">
+                    <h2>Lenguaje de Marcas y Sistema de Gestión de la Información</h2>
+                    <p id="contacto">Contactame si estás preparado</p>
+                </div>
+                <section>
+                    <div class="fotos">
+                        <img src="img/1.jpg" alt="">
+                    </div>
+                     <div class="fotos">
+                        <img src="img/2.jpg" alt="">
+                    </div>
+                    <div class="fotos">
+                        <img src="img/3.jpg" alt="">
+                    </div>
+                    <div class="fotos">
+                        <img src="img/4.jpg" alt="">
+                    </div>
+                    <div class="fotos">
+                        <img src="img/5.jpg" alt="">
+                    </div>
+                    <div class="fotos">
+                        <img src="img/6.jpg" alt="">
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="contacto">
+            <div class="contenedor">
+                <div class="footer-textos">
+                    <h2>Contacta con nosostros</h2>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+                <form action="" class="formulario" method="POST">
+                    <input type="text" placeholder="Nombre" id="nombre" name="nombre" required value="">
+                    <input type="email" placeholder="Correo" id="correo" name="correo" required value="" class="email">
+                    <textarea name="mensaje" id="mensaje" placeholder="Mensaje:"></textarea>
+                    <div class="derecha">                   
+                    </div>
+                </form>
+                <input class="boton derecha" type="submit" value="Contactar" name="submmit">
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

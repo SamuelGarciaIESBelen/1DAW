@@ -1,0 +1,88 @@
+{
+	"contenedores": [
+		{
+			"-tipo_contenedor": "Grande",
+			"envases": [
+				{
+					"-tipo_envase": "Grande Ancho",
+					"liquidos": [
+						{ "-tipo": "Alimento", "liquido": "Agua" },
+						{ "-tipo": "Alimento", "liquido": "Leche" },
+						{ "-tipo": "Alimento", "liquido": "Aceite" },
+						{ "-tipo": "Alimento", "liquido": "Vinagre" }
+					]
+				},
+				{
+					"-tipo_envase": "Grande Alto",
+					"liquidos": [
+						{ "-tipo": "Alimento", "liquido": "Agua" },
+						{ "-tipo": "Alimento", "liquido": "Leche" },
+						{ "-tipo": "Alimento", "liquido": "Aceite" },
+						{ "-tipo": "Alimento", "liquido": "Vinagre" }
+					]
+				}
+			]
+		},
+		{
+			"-tipo_contenedor": "Mediano",
+			"envases": [
+				{
+					"-tipo_envase": "Mediano Ancho",
+					"liquidos": [
+						{ "-tipo": "Alimento", "liquido": "Agua" },
+						{ "-tipo": "Alimento", "liquido": "Leche" },
+						{ "-tipo": "Alimento", "liquido": "Aceite" },
+						{ "-tipo": "Alimento", "liquido": "Vinagre" }
+					]
+				},
+				{
+					"-tipo_envase": "Mediano Alto",
+					"liquidos": [
+						{ "-tipo": "Corrosivo", "liquido": "Lejía" },
+						{ "-tipo": "Corrosivo", "liquido": "Amoniaco" },
+						{ "-tipo": "Corrosivo", "liquido": "Jabón" },
+						{ "-tipo": "Corrosivo", "liquido": "Aguarrás" },
+						{ "-tipo": "Corrosivo", "liquido": "Gasolina" },
+						{ "-tipo": "Corrosivo", "liquido": "Alcohol" }
+					]
+				},
+				{
+					"-tipo_envase": "Pequeño",
+					"liquidos": [
+						{ "-tipo": "Corrosivo", "liquido": "Lejía" },
+						{ "-tipo": "Corrosivo", "liquido": "Amoniaco" },
+						{ "-tipo": "Corrosivo", "liquido": "Jabón" },
+						{ "-tipo": "Corrosivo", "liquido": "Aguarrás" },
+						{ "-tipo": "Corrosivo", "liquido": "Gasolina" },
+						{ "-tipo": "Corrosivo", "liquido": "Alcohol" }
+					]
+				}
+			]
+		},
+		{
+			"-tipo_contenedor": "Vertical",
+			"envases": [
+				{
+					"-tipo_envase": "Grande Alto",
+					"liquidos": [
+						{ "-tipo": "Alimento", "liquido": "Agua" },
+						{ "-tipo": "Alimento", "liquido": "Leche" },
+						{ "-tipo": "Alimento", "liquido": "Aceite" },
+						{ "-tipo": "Alimento", "liquido": "Vinagre" }
+					]
+				},
+				{
+					"-tipo_envase": "Mediano Alto",
+					"liquidos": [
+						{ "-tipo": "Corrosivo", "liquido": "Lejía" },
+						{ "-tipo": "Corrosivo", "liquido": "Amoniaco" },
+						{ "-tipo": "Corrosivo", "liquido": "Jabón" },
+						{ "-tipo": "Corrosivo", "liquido": "Aguarrás" },
+						{ "-tipo": "Corrosivo", "liquido": "Gasolina" },
+						{ "-tipo": "Corrosivo", "liquido": "Alcohol" }
+					]
+				}
+			]
+		}
+	]
+}

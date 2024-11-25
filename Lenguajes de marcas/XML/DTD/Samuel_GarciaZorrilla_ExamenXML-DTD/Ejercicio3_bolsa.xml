@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE listado SYSTEM "Ejercicio3_bolsa.dtd">
+
+<listado>
+    <futuro precio="22">
+        <producto>Jamón</producto>
+        <mercado>De Huelin</mercado>
+        <ciudad_procedencia>
+            <frankfurt/>
+        </ciudad_procedencia>
+    </futuro>
+    <futuro precio="11">
+        <producto>Salchichas</producto>
+        <ciudad_procedencia>
+            <frankfurt/>
+        </ciudad_procedencia>
+    </futuro>
+    <divisa precio="22" estable="yes">
+        <nombre_divisa>Euro</nombre_divisa>
+        <tipo_de_cambio>Limpio</tipo_de_cambio>
+        <tipo_de_cambio>Limpísimo</tipo_de_cambio>
+        <ciudad_procedencia>
+            <madrid/>
+        </ciudad_procedencia>
+    </divisa>
+    <bono precio="22">
+        <pais_de_procedencia>EEUU</pais_de_procedencia>
+        <valor_deseado>22</valor_deseado>
+        <valor_minimo>11</valor_minimo>
+        <valor_maximo>33</valor_maximo>
+        <ciudad_procedencia>
+            <nyork/>
+        </ciudad_procedencia>
+    </bono>
+    <bono precio="33">
+        <pais_de_procedencia>Espania</pais_de_procedencia>
+        <valor_deseado>50</valor_deseado>
+        <valor_minimo>25</valor_minimo>
+        <valor_maximo>75</valor_maximo>
+        <ciudad_procedencia>
+            <madrid/>
+        </ciudad_procedencia>
+    </bono>
+    <letra precio="22">
+        <tipo_de_interes>Fijo</tipo_de_interes>
+        <pais_emisor>
+            <japon/>
+        </pais_emisor>
+        <ciudad_procedencia>
+            <tokio/>
+        </ciudad_procedencia>
+    </letra>
+</listado>

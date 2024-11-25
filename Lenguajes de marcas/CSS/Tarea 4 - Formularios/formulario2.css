@@ -1,0 +1,99 @@
+body {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 15px;
+	color: black;
+	background-color: rgb(206, 206, 206);
+	margin: 50px;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+}
+
+div {
+	margin-top: 10px;
+}
+
+.form {
+	border: solid black 2px;
+	background-color: #ffcc99;
+	padding: 20px;
+	width: 800px;
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	background-color: orange;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	padding: 5px;
+}
+
+label {
+	background-color: maroon;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	padding: 0px 30px 0px 30px;
+	width: 200px;
+}
+
+.name {
+	display: flex;
+}
+
+.address {
+	display: flex;
+}
+
+.text {
+	margin-left: 50px;
+	width: 300px;
+}
+
+.options {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.options label {
+	margin-bottom: 10px;
+}
+
+.ingredients {
+	display: flex;
+	flex-direction: column;
+}
+
+.size {
+	display: flex;
+	flex-direction: column;
+}
+
+.payment {
+	display: flex;
+	flex-direction: column;
+}
+
+.instructions {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+}
+
+.comment {
+	display: flex;
+	justify-content: center;
+}
+
+.buttons {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+}

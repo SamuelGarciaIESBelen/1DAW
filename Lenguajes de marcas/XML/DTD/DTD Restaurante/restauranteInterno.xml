@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE restaurante [
+    
+<!ELEMENT restaurante (menu, recetas, clientes)>
+
+<!-- MENÚ -->
+<!ELEMENT menu (plato+)>
+<!ELEMENT plato (nombre-plato, categoria, ingredientes-menu, precio)>
+<!ELEMENT nombre-plato (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT ingredientes-menu (ingrediente-menu+)>
+<!ELEMENT ingrediente-menu (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+
+<!ATTLIST precio moneda (USD | EUR | GBP) #REQUIRED>
+<!ATTLIST plato id ID #REQUIRED>
+<!-- MENÚ -->
+
+<!-- RECETAS -->
+<!ELEMENT recetas (receta+)>
+<!ELEMENT receta (nombre-receta, ingredientes-receta, preparacion)>
+<!ELEMENT nombre-receta (#PCDATA)>
+<!ELEMENT ingredientes-receta (ingrediente-receta+)>
+<!ELEMENT ingrediente-receta (nombre-ingrediente-receta)>
+<!ELEMENT nombre-ingrediente-receta (#PCDATA)>
+<!ELEMENT preparacion (paso+)>
+<!ELEMENT paso (#PCDATA)>
+
+<!ATTLIST receta comensales (adulto | niño) #REQUIRED>
+<!ATTLIST ingrediente-receta cantidad CDATA #REQUIRED>
+<!-- <!ENTITY unidad "(gramos | kilos | litros | cucharada | unidades)"> -->
+<!ATTLIST ingrediente-receta unidad (gramos | kilos | litros | cucharada | unidades) #REQUIRED>
+<!ATTLIST paso orden CDATA #IMPLIED>
+<!ATTLIST receta id ID #REQUIRED>
+<!-- RECETAS -->
+
+<!-- CLIENTES -->
+<!ELEMENT clientes (cliente+)>
+<!ELEMENT cliente (nombre-cliente, telefono?, mesa, platos-consumidos)>
+<!ELEMENT nombre-cliente (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT mesa (#PCDATA)>
+<!ELEMENT platos-consumidos (plato-consumido+)>
+<!ELEMENT plato-consumido (nombre-plato-consumido, cantidad)>
+<!ELEMENT nombre-plato-consumido (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+
+<!ATTLIST mesa cantidad CDATA #REQUIRED>
+<!ATTLIST plato-consumido comentario CDATA #IMPLIED>
+<!ATTLIST cliente id ID #REQUIRED>
+<!-- CLIENTES -->
+] >
+
+<restaurante>
+    <menu>
+        <plato id="p1">
+            <nombre-plato>Croquetas</nombre-plato>
+            <categoria>Carne</categoria>
+            <ingredientes-menu>
+                <ingrediente-menu>Pollo de puchero</ingrediente-menu>
+            </ingredientes-menu>
+            <precio moneda="EUR">6</precio>
+        </plato>
+    </menu>
+
+    <recetas>
+        <receta id="r1" comensales="adulto">
+            <nombre-receta>Croquetas</nombre-receta>
+            <ingredientes-receta>
+                <ingrediente-receta cantidad="1" unidad="gramos">
+                    <nombre-ingrediente-receta>Pollo de puchero</nombre-ingrediente-receta>
+                </ingrediente-receta>
+            </ingredientes-receta>
+            <preparacion>
+                <paso orden="1">Preparar croquetas.</paso>
+                <paso orden="2">Servir croquetas.</paso>
+            </preparacion>
+        </receta>
+    </recetas>
+
+    <clientes>
+        <cliente id="c1">
+            <nombre-cliente>Samuel</nombre-cliente>
+            <telefono>111 11 11 11</telefono>
+            <mesa cantidad="2">11</mesa>
+            <platos-consumidos>
+                <plato-consumido comentario="Estaban buenísimas las croquetas">
+                    <nombre-plato-consumido>Croquetas</nombre-plato-consumido>
+                    <cantidad>2</cantidad>
+                </plato-consumido>
+            </platos-consumidos>
+        </cliente>
+    </clientes>
+</restaurante>

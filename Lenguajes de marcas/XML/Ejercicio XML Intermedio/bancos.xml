@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bancos>
+    <banco>
+        <nombre>Banco Urbano</nombre>
+        <identificador>ES32</identificador>
+        <cantidad>10000</cantidad>
+    </banco>
+    <banco>
+        <modelo>NLK82</modelo>
+        <capacidad>3</capacidad>
+        <medidas>
+            <ancho>123</ancho>
+            <alto>90</alto>
+        </medidas>
+    </banco>
+    <banco>
+        <modelo>NLK81</modelo>
+        <capacidad>2</capacidad>
+        <medidas>
+            <ancho>100</ancho>
+            <alto>90</alto>
+        </medidas>
+    </banco>
+    <banco>
+        <nombre>Banco Predem</nombre>
+        <identificador>ES33</identificador>
+        <cantidad>10020</cantidad>
+    </banco>
+    <banco>
+        <nombre>Banco ESP</nombre>
+        <identificador>ES34</identificador>
+        <cantidad>230000</cantidad>
+    </banco>
+    <banco>
+        <nombre>Banco Bank</nombre>
+        <identificador>ES56</identificador>
+        <cantidad>10555</cantidad>
+    </banco>
+    <banco>
+        <modelo>NLK78</modelo>
+        <capacidad>1</capacidad>
+        <medidas>
+            <ancho>60</ancho>
+            <alto>90</alto>
+        </medidas>
+    </banco>
+    <banco>
+        <nombre>Banco Trechted</nombre>
+        <identificador>ES211</identificador>
+        <cantidad>10000000</cantidad>
+    </banco>
+    <banco>
+        <nombre>Banco Bench</nombre>
+        <identificador>ES46</identificador>
+        <cantidad>110000</cantidad>
+    </banco>
+    <banco>
+        <modelo>NLK88</modelo>
+        <capacidad>4</capacidad>
+        <medidas>
+            <ancho>156</ancho>
+            <alto>95</alto>
+        </medidas>
+    </banco>
+</bancos>

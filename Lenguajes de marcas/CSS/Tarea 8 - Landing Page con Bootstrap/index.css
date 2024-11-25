@@ -1,0 +1,153 @@
+header {
+    background-image: url(img/portada.png);
+    margin: 0;
+}
+header nav {
+    text-align: right;
+    padding: 40px;
+}
+header nav a {
+    color: white;
+    font-size: 25px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+header div.contenido-header {
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 200px;
+}
+header div.contenido-header h1 {
+    color: white;
+    font-size: 200px;
+    margin: 70px 0 0 0;
+} 
+header div.contenido-header hr {
+    display: flex;
+    border: 1px solid rgb(65, 185, 221);
+    margin: 0 400px 20px 400px;
+}
+header div.contenido-header h2 {
+    color: white;
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 70px;
+}
+header div.contenido-header a {
+    color: white;
+    border: 2px solid rgb(65, 185, 221);
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+} 
+
+section#quienes {
+    background-color: aliceblue;
+    margin: 0;
+    text-align: center;
+    padding: 50px 70px 70px 70px;
+}
+section#quienes h3 {
+    font-size: 35px;
+}
+section#quienes p {
+    font-size: 20px;
+    color: grey;
+}
+
+section#quehacemos div.contenido-cajas {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+section#quehacemos div.contenido-cajas div.tarjeta {
+    text-align: center;
+    margin-top: 50px;
+}
+section#quehacemos div.contenido-cajas div.tarjeta div {
+    text-align: center;
+    margin: 0 30px 75px 30px;
+}
+
+section#portafolio {
+    background-color: aliceblue;
+    margin: 0;
+    padding-bottom: 100px
+}
+section#portafolio div.text-center {
+    text-align: center;
+    padding: 50px;
+}
+section#portafolio div.text-center h2 {
+    font-size: 50px;
+    color: rgb(27, 27, 70);
+}
+section#portafolio div.text-center p {
+    font-size: 25px;
+    color: grey;
+}
+section#portafolio section.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+section#portafolio section.galeria img {
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-image: url(img/footer.png);
+    margin: 0;
+}
+footer div.container {
+    display: flex;
+    flex-direction: column;
+}
+footer div.footer-textos {
+    text-align: center;
+    padding-top: 50px;
+}
+footer div.footer-textos h2 {
+    font-size: 50px;
+    color: white;
+}
+footer div.footer-textos p {
+    font-size: 25px;
+    color: grey;
+}
+footer form {
+    text-align: center;
+}
+footer form > input {
+    font-size: 15px;
+    color: grey;
+    background-color: transparent;
+    width: 50%;
+    margin-top: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+footer textarea {
+    font-size: 15px;
+    color: grey;
+    background-color: transparent;
+    height: 100px;
+    width: 50%;
+    margin-top: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+footer div.text-end input {
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(65, 185, 221);
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+}

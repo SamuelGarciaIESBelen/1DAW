@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!--Recordad que este elemento
+    lo ponemos siempre con "autocierre"
+    por brevedad-->
+<xsd:element name="listaarticulos"
+            type="tipoListaArticulos"/>
+<!--Esto explica como funciona el elemento
+    "listaarticulos"-->
+<xsd:complexType name="tipoListaArticulos">
+    <xsd:complexContent>
+        <xsd:restriction base="xsd:anyType">
+            <xsd:sequence>
+                <xsd:element name="articulo"
+                    type="tipoArticulo"
+                    minOccurs="2"
+                    maxOccurs="7"/>
+            </xsd:sequence>
+        </xsd:restriction>
+    </xsd:complexContent>
+</xsd:complexType>
+<!--Esto explica como funciona
+    la etiqueta "articulo"-->
+<xsd:complexType name="tipoArticulo">
+    <xsd:complexContent>
+        <xsd:restriction base="xsd:anyType">
+            <xsd:sequence>
+                <xsd:element name="codigo"
+                    type="tipoCodigo"/>
+                <xsd:element name="descripcion"
+                    type="tipoDescripcion"
+                    minOccurs="0"/>
+                <xsd:element name="peso"
+                    type="tipoPeso"/>
+            </xsd:sequence>
+        </xsd:restriction>
+    </xsd:complexContent>
+</xsd:complexType>
+<!--Esto explica como funciona la
+    etiqueta "codigo"-->
+<xsd:simpleType name="tipoCodigo">
+    <xsd:restriction base="xsd:string">
+        <xsd:pattern value="[0-9]{3}[a-z]{2}"/>
+    </xsd:restriction>
+</xsd:simpleType>
+<!--Desarrollamos el funcionamiento de la
+    etiqueta "descripcion"-->
+<xsd:complexType name="tipoDescripcion">
+    <xsd:simpleContent>
+        <xsd:extension base="xsd:string">
+            <xsd:attribute name="idioma"
+                    type="tipoIdioma"
+                    use="required"/>
+        </xsd:extension>
+    </xsd:simpleContent>
+</xsd:complexType>
+<!--Esto desarrolla el idioma de la descripción-->
+<xsd:simpleType name="tipoIdioma">
+    <xsd:restriction base="xsd:string">
+        <xsd:enumeration value="ES"/>
+        <xsd:enumeration value="FR"/>
+        <xsd:enumeration value="EN"/>
+    </xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="tipoPeso">
+    <xsd:restriction base="xsd:float">
+        <xsd:minInclusive value="50"/>
+        <xsd:maxInclusive value="1500"/>
+    </xsd:restriction>
+</xsd:simpleType>
+</xs:schema>

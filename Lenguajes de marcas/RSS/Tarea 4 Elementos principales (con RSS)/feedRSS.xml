@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>
+            Noticias sobre las películas mencionadas
+        </title>
+        <link>
+            https://batman.fandom.com/es/wiki/Bruce_Wayne_(DCEU)
+        </link>
+        <description>
+            Son peliculones
+        </description>
+        <item>
+            <title>
+                Batman Begins inicia la trilogía de Nolan, protagonizada por Christian Bale
+            </title>
+            <link>
+                https://www.filmaffinity.com/es/film943383.html
+            </link>
+            <description>
+                Top 4
+            </description>
+        </item>
+        <item>
+            <title>
+                The Dark Knight, valorada por muchos como la mejor película de superhéroes jamás creada
+            </title>
+            <link>
+                https://www.filmaffinity.com/es/film867354.html
+            </link>
+            <description>
+                Top 2
+            </description>
+        </item>
+        <item>
+            <title>
+                The Dark Knight Rises, fin de la trilogía
+            </title>
+            <link>
+                https://www.filmaffinity.com/es/film352576.html
+            </link>
+            <description>
+                Top 5
+            </description>
+        </item>
+        <item>
+            <title>
+                The Batman, reboot de la saga con un Batman en sus inicios
+            </title>
+            <link>
+                https://www.filmaffinity.com/es/film911057.html
+            </link>
+            <description>
+                Top 1
+            </description>
+        </item>
+        <item>
+            <title>
+                Zack Snyder's Justice League es una reinvención de la formación y auge de la Liga de la Justicia de América
+            </title>
+            <link>
+                https://www.filmaffinity.com/es/film727076.html
+            </link>
+            <description>
+                Top 3
+            </description>
+        </item>
+    </channel>
+</rss>

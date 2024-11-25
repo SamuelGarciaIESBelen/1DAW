@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<productosfinancieros
+        xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+        xs:noNamespaceSchemaLocation="productos_financieros.xsd">
+    <producto>
+        <bono>
+            <valoractual moneda="dolar">2.212</valoractual>
+            <beneficio>-3.83</beneficio>
+        </bono>
+    </producto>
+    <producto>
+        <futuro>
+            <elemento idioma="espanol">Gas_natural</elemento>
+            <beneficio>-3.82</beneficio>
+        </futuro>
+    </producto>
+    <producto>
+        <acciones>
+            <empresa pais="japon">PILOT</empresa>
+            <beneficio>2.91</beneficio>
+        </acciones>
+    </producto>
+</productosfinancieros>

@@ -1,0 +1,178 @@
+body {
+	display: grid;
+	grid-template-columns: repeat(5, 20%);
+	grid-template-rows: 10% 30px 1fr 15%;
+}
+
+header {
+	display: grid;
+	grid-column: 3 / 5;
+	grid-row: 1 / 2;
+	color: rgb(0, 0, 141);
+}
+
+nav {
+	display: grid;
+	grid-column: 1 / 5;
+	grid-row: 2 / 3;
+	background-color: green;
+	color: rgb(164, 205, 50);
+}
+
+.menu {
+	display: flex;
+}
+
+nav div {
+	margin: 0 5px 0 5px;
+	align-items: center;
+}
+
+div.menu div{
+	background-color: rgba(87, 206, 87, 0.445);
+}
+
+section {
+display: grid;
+grid-column: 1 / 5;
+grid-row: 3 / 4;
+background-color: rgba(216, 255, 152, 0.781);
+padding: 40px;
+}
+
+section h2 {
+	text-align: center;
+	color: rgb(0, 87, 0);
+}
+
+section h3 {
+	font-weight: bold;
+}
+
+article.viajes h2 {
+	background-color: black;
+	color: white;
+	font-weight: normal;
+	text-align: right;
+	padding: 10px 10px 10px 0px;
+	margin-bottom: 0;
+}
+
+div.viajes {
+	display: flex;
+	flex-direction: row;
+	justify-content: stretch;
+}
+
+div.viajes div {
+	padding: 10px;
+	width: 33.33%;
+	text-align: center;
+}
+
+div.viajes img {
+	width: 100%;
+	height: 40%;
+}
+
+div.polonia {
+	background-color: rgba(26, 114, 214, 0.473);
+}
+
+div.oporto {
+	background-color: rgba(105, 226, 105, 0.664)
+}
+
+div.malta {
+	background-color: rgba(94, 94, 182, 0.747)
+}
+
+article.aficiones h2 {
+	color: rgb(99, 99, 99);
+	text-align: right;
+	margin: 5px 10px 10px 0;
+}
+
+div.aficiones {
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	background-color:white;
+	display: flex;
+	flex-direction: column;
+	padding: 0px;
+	text-align: center;
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+div.aficiones h3 {
+	color: white;
+}
+
+div#principales {
+	display: flex;
+	flex-direction: row;
+}
+
+div#principales div{
+	padding: 0 5px 0 5px;
+	margin: 0 10px 20px 1px;
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	border-radius: 40px 0;
+}
+
+div#principales img {
+	width: 100px;
+	margin-bottom: 10px;
+}
+
+div.design {
+	background-color: aqua;
+}
+
+div.montania {
+	background-color: rgba(255, 166, 0, 0.678);
+}
+
+div.animales {
+	background-color: rgba(192, 28, 28, 0.705);
+}
+
+div.series {
+	background-color: rgba(173, 173, 173, 0.678);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	border-radius: 40px 0;
+	margin: 0 10px 5px 1px;
+}
+
+div.series .bigbang {
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	background-color: white;
+	border-radius: 40px 0;
+	padding: 10px 10px 30px 10px;
+	margin: 15px;
+}
+
+aside {
+display: grid;
+grid-column: 5 / 6;
+grid-row: 2 / 4;
+background-color: rgba(238, 130, 238, 0.568);
+}
+
+aside div {
+	border: solid 2px blue;
+	margin: 20px;
+	background-color: white;
+	padding: 10px;
+}
+
+footer {
+display: grid;
+grid-column: 1 / 6;
+grid-row: 4 / 5;
+background-color: rgba(70, 243, 255, 0.623);
+text-align: center;
+color: blue;
+}
+
+footer a {
+	color: green;
+}

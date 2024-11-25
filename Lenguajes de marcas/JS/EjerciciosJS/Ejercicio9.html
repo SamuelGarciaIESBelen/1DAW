@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ejercicio 9</title>
+</head>
+
+<body onload="traducir()">
+	<h1 style="text-align: center;">EJERCICIO 9: TRADUCCIÓN</h1>
+	<div id="res" style="text-align: center; font-size: 25px;"></div>
+	<br><br>
+	<button id="botonTraducir" onclick="traducir()" style="display: block; margin: auto;">Traducir otra palabra</button>
+
+
+	<script>
+		function traducir() {
+			palabra = prompt("Introduce un valor de la lista (casa, mesa, perro, gato)\n\nPara salir escribe: salir");
+			switch (palabra) {
+				case "casa":
+					res = "Casa en inglés es House";
+					break;
+				case "mesa":
+					res = "Mesa en inglés es Table";
+					break;
+				case "perro":
+					res = "Perro en inglés es Dog";
+					break;
+				case "gato":
+					res = "Gato en inglés es Cat";
+					break;
+				default:
+					res = "Has salido del programa";
+					document.getElementById('botonTraducir').style.display = 'none';
+					break;
+			}
+			document.getElementById('res').innerHTML = res;
+		}
+	</script>
+</body>
+
+</html>

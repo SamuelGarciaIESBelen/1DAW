@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Ejercicio1.xsl" type="text/xsl"?>
+<premios>
+        <Nobel año="1921">
+                <especialidad>Física</especialidad>
+                <ganadores>
+                    <ganador pais="Alemania">Albert Einstein</ganador>
+                </ganadores>
+        </Nobel>
+        <Nobel año="2015">
+            <especialidad>Física</especialidad>
+            <ganadores>
+                <ganador pais="Japon">Takaaki Kajita</ganador>
+                <ganador pais="Canada">Arthur B. McDonald</ganador>
+            </ganadores>
+        </Nobel>
+        <Nobel año="2023">
+            <especialidad>Física</especialidad>
+            <ganadores>
+                <ganador pais="Francia">Pierre Agostini</ganador>
+                <ganador pais="Hungria">Ferenc Krausz</ganador>
+                <ganador pais="Francia">Anne L'Huillier</ganador>
+            </ganadores>
+        </Nobel>
+        <Nobel año="1964">
+            <especialidad>Paz</especialidad>
+            <ganadores>
+                <ganador pais="EEUU">Martin Luther King</ganador>
+            </ganadores>
+        </Nobel>
+        <Nobel año="2023">
+            <especialidad>Paz</especialidad>
+            <ganadores>
+                <ganador pais="Iran">Narges Mohammadi</ganador>
+            </ganadores>
+        </Nobel>
+        <Nobel año="1904">
+            <especialidad>Literatura</especialidad>
+            <ganadores>
+                <ganador pais="Francia">Frédéric Mistral</ganador>
+                <ganador pais="España">José Echegaray</ganador>
+            </ganadores>
+        </Nobel>
+        <Nobel año="2023">
+            <especialidad>Literatura</especialidad>
+            <ganadores>
+                <ganador pais="Noruega">Jon Fosse</ganador>
+            </ganadores>
+        </Nobel> 
+        <Nobel año="1904">
+            <especialidad>Medicina</especialidad>
+            <ganadores>
+                <ganador pais="Reino de Italia">Camillo Golgi</ganador>
+                <ganador pais="España">Santiago Ramón y Cajal</ganador>
+            </ganadores>
+        </Nobel>
+        <Nobel año="2023">
+            <especialidad>Medicina</especialidad>
+            <ganadores>
+                <ganador pais="Hungria">Katalin Karikó</ganador>
+                <ganador pais="EEUU">Drew Weissman</ganador>
+            </ganadores>
+        </Nobel>                 
+</premios>

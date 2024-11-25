@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cartas>
+    <carta xlmns = "www.poker.com">
+        <palo>Trébol</palo>
+        <numero>12</numero>
+    </carta>
+    
+    <carta xlmns = "www.comida.com">
+        <entremeses>
+            <nombre>Ensaladilla rusa</nombre>
+            <precio>4</precio>
+        </entremeses>
+        <primeros>
+            <nombre>Lagarto ibérico</nombre>
+            <precio>13</precio>
+        </primeros>
+        <postres>
+            <nombre>Arroz con leche</nombre>
+            <precio>3</precio>
+        </postres>
+    </carta>
+    
+    <carta xlmns = "www.poker.com">
+        <palo>Corazón</palo>
+        <numero>10</numero>
+    </carta>
+
+    <carta xlmns = "www.comida.com">
+        <entremeses>
+            <nombre>Croquetas de puchero</nombre>
+            <precio>6</precio>
+        </entremeses>
+        <primeros>
+            <nombre>Hamburguesa de buey</nombre>
+            <precio>11</precio>
+        </primeros>
+        <postres>
+            <nombre>Whisky cola</nombre>
+            <precio>5.50</precio>
+        </postres>
+    </carta>
+
+    <carta xlmns = "www.poker.com">
+        <palo>Pica</palo>
+        <numero>8</numero>
+    </carta>
+
+    <carta xlmns = "www.comida.com">
+        <entremeses>
+            <nombre>Takoyakis</nombre>
+            <precio>3</precio>
+        </entremeses>
+        <primeros>
+            <nombre>Pollo al curry con arroz</nombre>
+            <precio>7.50</precio>
+        </primeros>
+        <postres>
+            <nombre>Helado de Baileys</nombre>
+            <precio>2.20</precio>
+        </postres>
+    </carta>
+
+    <carta xlmns = "www.poker.com">
+        <palo>Diamante</palo>
+        <numero>1</numero>
+    </carta>
+</cartas>

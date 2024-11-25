@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<armarios>
+    <armario tipo="1">
+        <articulo tipo="pantalon">
+            <percha disponible="true">vaquero</percha>
+            <percha disponible="true">lino</percha>
+            <percha disponible="false">algodon</percha>
+        </articulo>
+        <articulo tipo="camisa">
+            <percha disponible="false">vaquero</percha>
+            <percha disponible="true">lino</percha>
+            <percha disponible="true">algodon</percha>
+        </articulo>
+    </armario>
+    <armario tipo="2">
+        <articulo tipo="pantalon">
+            <percha disponible="true">chandal</percha>
+            <percha disponible="true">plastico</percha>
+            <percha disponible="true">elastico</percha>
+        </articulo>
+        <articulo tipo="camiseta">
+            <percha disponible="false">chandal</percha>
+            <percha disponible="false">plastico</percha>
+            <percha disponible="false">elastico</percha>
+            <percha disponible="true">lino</percha>
+        </articulo>
+        <articulo tipo="gorro">
+            <percha disponible="false">vaquero</percha>
+            <percha disponible="true">lino</percha>
+            <percha disponible="true">algodon</percha>
+        </articulo>
+    </armario>
+    <armario tipo="3">
+        <articulo tipo="zapato">
+            <percha disponible="true">cuero</percha>            
+        </articulo>
+    </armario>
+</armarios>

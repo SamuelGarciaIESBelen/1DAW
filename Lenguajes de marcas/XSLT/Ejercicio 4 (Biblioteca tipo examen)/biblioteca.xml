@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="biblioteca.xsl" type="text/xsl"?>
+
+<biblioteca>
+        <libro isbn="ibsn1">
+                <titulo>Don Quijote</titulo>
+                <autores>
+                        <autor nacimiento="1547">Cervantes</autor>
+                </autores>
+                </libro>
+        <libro isbn="ibsn2">
+                <titulo>Antologia</titulo>
+                <autores>
+                        <autor nacimiento="1898">Lorca</autor>
+                        <autor nacimiento="1910">Miguel Hernandez</autor>
+                </autores>
+        </libro>
+        <libro isbn="ibsn3">
+                <titulo>La señora Dalloway</titulo>
+                <autores>
+                        <autor nacimiento="1900">Virginia Woolf</autor>              
+                </autores>
+        </libro>
+        <libro isbn="ibsn4">
+                <titulo>Historias Phantasticas</titulo>
+                <autores>
+                        <autor nacimiento="1988">Elia Barceló</autor> 
+                        <autor nacimiento="1901">Patricia Richmond</autor>
+                        <autor nacimiento="1898">Virginia Orive de la Rosa</autor>             
+                </autores>
+        </libro>
+</biblioteca>

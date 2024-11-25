@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario 1 CSS</title>
+	<link rel="stylesheet" href="formulario1.css">
+</head>
+
+<body>
+	<div>
+		<form>
+			<fieldset>
+				<legend>Pedido de Pizza</legend>
+				<table>
+					<tr>
+						<td>
+							<label for="name">Nombre</label>
+						</td>
+						<td>
+							<input type="text">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="address">Dirección</label>
+						</td>
+						<td>
+							<input type="text">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="ingredients">Ingredientes</label>
+						</td>
+						<td>
+							<input type="checkbox" name="ingredients" value="cheese"> Queso
+							<input type="checkbox" name="ingredients" value="onion"> Cebolla
+							<input type="checkbox" name="ingredients" value="pepper"> Pimiento
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="size">Tamaño</label>
+						</td>
+						<td>
+							<input type="radio" name="size" value="small"> Pequeña
+							<input type="radio" name="size" value="medium"> Mediana
+							<input type="radio" name="size" value="large"> Grande
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="payment">Forma de pago</label>
+						</td>
+						<td>
+							<select name="payment" id="payment">
+								<option value="visa">VISA</option>
+								<option value="master">MasterCard</option>
+								<option value="revolut">Revolut</option>
+								<option value="paypal">PayPal</option>
+								<option value="gpay">Google Pay</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td style="vertical-align: baseline;">
+							<label for="comments">Comentarios</label>
+						</td>
+						<td>
+							<textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button>Enviar</button>
+							<button>Borrar</button>
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+	</div>
+</body>
+
+</html>

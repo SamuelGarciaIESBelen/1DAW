@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paneles>
+	<evento>
+		<sign-type>accident</sign-type>
+		<km-point>42.200</km-point>
+		<name>A-49</name>
+		<direction>Huelva</direction>
+		<road-cuts>1</road-cuts>
+		<date>December 28 2023</date>
+		<time>16:43</time>
+		<retention>Sí</retention>
+		<retention-kms>8</retention-kms>
+	</evento>
+	<evento>
+		<sign-type>retention</sign-type>
+		<km-point>550</km-point>
+		<name>A-4</name>
+		<direction>Sevilla</direction>
+		<road-cuts>0</road-cuts>
+		<date>November 14 2023</date>
+		<time>12:38</time>
+		<retention>Sí</retention>
+		<retention-kms>3</retention-kms>
+	</evento>
+</paneles>

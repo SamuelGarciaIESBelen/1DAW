@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<perro>
+    <razas>
+        <raza>
+            <nombre>Perro de aguas español</nombre>
+            <abreviatura>PAE</abreviatura>
+            <origen>Andalucía</origen>
+            <tamanno>
+                <macho>44 a 50 cm</macho>
+                <hembra>40 a 46 cm</hembra>
+            </tamanno>
+            <peso>
+                <macho>19 a 22 kg</macho>
+                <hembra>14 a 19 kg</hembra>
+            </peso>
+            <salvaje>No</salvaje>
+            <longevidad>17</longevidad>
+            <tipo_pelo>Grueso</tipo_pelo>
+            <agresivo>No</agresivo>
+        </raza>
+        <raza>
+            <nombre>Golden Retriever</nombre>
+            <abreviatura>GR</abreviatura>
+            <origen>Inglaterra</origen>
+            <tamanno>
+                <macho>40 a 47 cm</macho>
+                <hembra>35 a 42 cm</hembra>
+            </tamanno>
+            <peso>
+                <macho>21 a 25 kg</macho>
+                <hembra>18 a 22 kg</hembra>
+            </peso>
+            <salvaje>No</salvaje>
+            <longevidad>19</longevidad>
+            <tipo_pelo>Grueso</tipo_pelo>
+            <agresivo>No</agresivo>
+        </raza>
+        <raza>
+            <nombre>Bulldog</nombre>
+            <abreviatura>BD</abreviatura>
+            <origen>Francia</origen>
+            <tamanno>
+                <macho>20 a 25 cm</macho>
+                <hembra>17 a 20 cm</hembra>
+            </tamanno>
+            <peso>
+                <macho>10 a 15 kg</macho>
+                <hembra>8 a 13 kg</hembra>
+            </peso>
+            <salvaje>No</salvaje>
+            <longevidad>14</longevidad>
+            <tipo_pelo>Fino</tipo_pelo>
+            <agresivo>No</agresivo>
+        </raza>
+        <raza>
+            <nombre>Husky siberiano</nombre>
+            <abreviatura>HS</abreviatura>
+            <origen>Siberia</origen>
+            <tamanno>
+                <macho>44 a 50 cm</macho>
+                <hembra>40 a 46 cm</hembra>
+            </tamanno>
+            <peso>
+                <macho>19 a 22 kg</macho>
+                <hembra>14 a 19 kg</hembra>
+            </peso>
+            <salvaje>Sí</salvaje>
+            <longevidad>16</longevidad>
+            <tipo_pelo>Grueso</tipo_pelo>
+            <agresivo>Sí</agresivo>
+        </raza>
+        <raza>
+            <nombre>Pastor alemán</nombre>
+            <abreviatura>PA</abreviatura>
+            <origen>Alemania</origen>
+            <tamanno>
+                <macho>50 a 55 cm</macho>
+                <hembra>46 a 49 cm</hembra>
+            </tamanno>
+            <peso>
+                <macho>25 a 30 kg</macho>
+                <hembra>19 a 25 kg</hembra>
+            </peso>
+            <salvaje>Sí</salvaje>
+            <longevidad>18</longevidad>
+            <tipo_pelo>Grueso</tipo_pelo>
+            <agresivo>No</agresivo>
+        </raza>
+    </razas>
+</perro>

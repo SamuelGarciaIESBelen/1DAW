@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ejercicio 5
+
+	</title>
+</head>
+
+<body onload="paridad()">
+	<h1 style="text-align: center;">EJERCICIO 5: PAR O IMPAR</h1>
+	<div id="res" style="text-align: center; font-size: 25px;"></div>
+
+	<script>
+		function paridad() {
+			num = Number(prompt("Introduce un número"));
+
+			if (isNaN(num))
+				res = "He dicho un número, melón";
+			else {
+				if (num % 2 == 0)
+					res = "El número introducido es PAR";
+				else
+					res = "El número introducido es IMPAR";
+			}
+			document.getElementById('res').innerHTML = res;
+		}
+	</script>
+</body>
+
+</html>

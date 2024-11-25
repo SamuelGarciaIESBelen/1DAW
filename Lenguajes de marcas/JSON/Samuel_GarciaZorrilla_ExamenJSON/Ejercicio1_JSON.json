@@ -1,0 +1,103 @@
+{
+	"animales": [
+		{
+			"datos_animal": {
+				"nombre": "Sandy",
+				"tipo": "Perro",
+				"raza": "Podenco",
+				"edad": 4
+			},
+			"datos_adoptante": {
+				"nombre_apellidos": "Daniel Montiel",
+				"dni": "23456789L",
+				"email": "dmonrui264@g.educaand.es",
+				"telefono": "+34 987 65 43 21"
+			},
+			"ciudad": "Málaga",
+			"cuidadores": ["María", "Pedro", "Alba"],
+			"fecha_entrada": "12/04/2020",
+			"cuidados": {
+				"desparasitado": true,
+				"alimentacion": "Pienso",
+				"vacunas": [
+					{
+						"nombre_vacuna": "Rabia",
+						"precio": 10,
+						"reaccion": true
+					},
+					{
+						"nombre_vacuna": "Parvovirus",
+						"precio": 15,
+						"reaccion": false
+					}
+				]
+			}
+		},
+		{
+			"datos_animal": {
+				"nombre": "Ricky",
+				"tipo": "Perro",
+				"raza": "Labrador",
+				"edad": 16
+			},
+			"datos_adoptante": {
+				"nombre_apellidos": "Samuel García",
+				"dni": "26831433R",
+				"email": "sgarzor433@g.educaand.es",
+				"telefono": "+34 601 13 00 90"
+			},
+			"ciudad": "Málaga",
+			"cuidadores": ["Juan", "Javier", "Manuel"],
+			"fecha_entrada": "19/01/2019",
+			"cuidados": {
+				"desparasitado": true,
+				"alimentacion": "Pavo",
+				"vacunas": [
+					{
+						"nombre_vacuna": "Tétanos",
+						"precio": 12,
+						"reaccion": false
+					},
+					{
+						"nombre_vacuna": "Malaria",
+						"precio": 18,
+						"reaccion": true
+					}
+				]
+			}
+		},
+		{
+			"datos_animal": {
+				"nombre": "Simba",
+				"tipo": "Gato",
+				"raza": "Africano",
+				"edad": 2
+			},
+			"datos_adoptante": {
+				"nombre_apellidos": "Claudia Valdivia",
+				"dni": "26831242F",
+				"email": "cvalzor253@g.educaand.es",
+				"telefono": "+34 601 54 20 93"
+			},
+			"ciudad": "Málaga",
+			"cuidadores": ["Samuel", "Mario", "Carmen"],
+			"fecha_entrada": "09/04/2012",
+			"cuidados": {
+				"desparasitado": true,
+				"alimentacion": "Pavo",
+				"vacunas": [
+					{
+						"nombre_vacuna": "Tétanos",
+						"precio": 12,
+						"reaccion": true
+					},
+					{
+						"nombre_vacuna": "Rabia",
+						"precio": 10,
+						"reaccion": false
+					}
+				]
+			}
+		}
+	]
+}

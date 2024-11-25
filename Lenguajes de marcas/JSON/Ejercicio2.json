@@ -1,0 +1,19 @@
+{
+    "estudiantes": {
+        "primaria":500,
+        "secundaria":300,
+        "fp": {
+            "basico":50,
+            "medio":50,
+            "superior":50
+        },
+        "bachillerato":200
+    },
+    "nombre_colegio":"IES Belén",
+    "ciudad": {
+        "nombre":"Málaga",
+        "provincia":"Málaga",
+        "cp":29004,
+        "distancia":121
+    }
+}

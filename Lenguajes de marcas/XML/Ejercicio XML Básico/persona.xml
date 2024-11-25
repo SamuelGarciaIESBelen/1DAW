@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<familiares>
+    <persona>
+        <nombre>Samuel</nombre>
+        <apellidos>García Zorrilla</apellidos>
+        <sexo>Hombre</sexo>
+        <fecha_nacimiento>
+            <dia>19</dia>
+            <mes>1</mes>
+            <anno>2001</anno>
+        </fecha_nacimiento>
+        <ciudad>Málaga</ciudad>
+    </persona>
+</familiares>

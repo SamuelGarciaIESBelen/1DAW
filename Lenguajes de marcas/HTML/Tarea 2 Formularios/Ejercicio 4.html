@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ejercicio 4</title>
+</head>
+
+<body>
+	<form>
+		<fieldset>
+			<legend>Datos fiscales</legend>
+			<input type="radio" name="fiscal">En paro
+			<br>
+			<input type="radio" name="fiscal">Autónomo
+			<br>
+			<input type="radio" name="fiscal">Por cuenta ajena
+		</fieldset>
+		<fieldset>
+			<legend>Datos personales</legend>
+			<label for="nombre">Nombre:</label>
+			<input type="text" id="nombre" name="nombre">
+			<br>
+			<label for="apellidos">Apellidos:</label>
+			<input type="text" id="apellidos" name="apellidos">
+			<br>
+			<label for="sueldo">Sueldo:</label>
+			<select name="sueldo" id="sueldo">
+				<option value="default">Escoja su caso</option>
+				<option value="+400">Más de 400 euros</option>
+				<option value="-400">Menos de 400 euros</option>
+				<option value="variables">Variables</option>
+			</select>
+			<br>
+			<input type="checkbox">Con enfermedad profesional
+			<br>
+			<input type="checkbox">Con padres a cargo
+			<br>
+			<input type="checkbox">Con hijos a cargo
+			<br>
+		</fieldset>
+	</form>
+</body>
+
+</html>

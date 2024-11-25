@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<concesionario>
+    <coches>
+        <cod_coche>12345</cod_coche>
+        <marca>Nissan</marca>
+        <modelo>Primera</modelo>
+        <matricula>MA-4944-CD</matricula>
+        <!-- <cv>12345</cv> -->
+        <plazas num_puertas="5">5</plazas>
+    </coches>
+</concesionario>

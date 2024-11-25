@@ -1,0 +1,42 @@
+#blog-feed { width: auto; }
+
+#blog-feed h2 {
+  color:hotpink; 
+  font-size: 1.5em; 
+  height:2.1em;
+  font-family:"Poppins";
+  line-height:1.1em;
+}
+
+#blog-feed img {
+  width:auto;
+  height:72px;
+  display:block;
+} 
+#blog-feed div {
+  width:25%; 
+  float:left; 
+  padding:1em 0.5em; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  border-bottom:1px solid hotpink;
+  margin:1em 0.5em;
+}
+#blog-feed div p {
+  height:72px;
+  overflow:hidden;
+  display:block;
+  margin-bottom:1em;
+  font-family:Sans-serif;
+  font-size:0.98em;
+}
+#blog-feed div a {
+  font-family:Sans-serif;
+  text-decoration:none;
+  color: orchid;
+}
+#blog-feed div p:last-child { display:none; }
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,400,500,600,700,800")

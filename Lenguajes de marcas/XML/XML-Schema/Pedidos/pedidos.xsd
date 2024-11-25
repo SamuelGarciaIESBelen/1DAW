@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:simpleType name="tipo_cantidad">
+		<xs:restriction base="xs:decimal">
+			<xs:minExclusive value="0"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="tipo_codigo">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]{3}-[a-zA-Z]{3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="tipo_transportista">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="T1"/>
+			<xs:enumeration value="T2"/>
+			<xs:enumeration value="T3"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="tipo_distancia">
+		<xs:simpleContent>
+			<xs:extension base="xs:positiveInteger">
+				<xs:attribute name="unidad" type="xs:string" use="required"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:element name="portes">
+		<xs:complexType> <!-- mixed="true" -->
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="recepcion">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="producto" type="xs:string"/>
+							<xs:element name="cantidad" type="tipo_cantidad"/>
+							<xs:element name="codigoreceptor" type="tipo_codigo" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="entrega">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="transportista" type="tipo_transportista"/>
+							<xs:element name="distancia" type="tipo_distancia"/>
+						</xs:sequence>
+						<xs:attribute name="receptor" type="xs:string" use="required"/>
+						<xs:attribute name="coste" type="xs:positiveInteger"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>
